@@ -1,51 +1,62 @@
 #main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+.moving {
+  /* background-color: red; */
+  white-space: nowrap;
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.move {
+  display: inline-block;
+  animation: move 20s linear infinite;
+  min-width: calc(200% + 40px); /* Ensure the container is wide enough */
+}
+
+.move img {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.left {
+  height: 100%;
+  background: linear-gradient(to right, white, transparent);
+  width: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Ensure the shadow is on top */
+}
+
+.right {
+  height: 100%;
+  background: linear-gradient(to left, white, transparent); /* Adjusted gradient direction */
+  width: 150px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1; /* Ensure the shadow is on top */
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
   }
-  
-  .moving {
-    /* background-color: red; */
-    white-space: nowrap;
-    padding: 10px;
-    overflow: hidden;
-    position: relative;
+
+  100% {
+    transform: translateX(-50%); /* Adjust to match the width of the images */
   }
-  
-  .move {
-    display: inline-block;
-    animation: move 20s linear infinite;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .left, .right {
+    width: 50px; /* Decrease shadow effect on mobile */
   }
-  
-  .move img {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  .left {
-    height: 100%;
-    background: linear-gradient(to right, white, transparent);
-    width: 150px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .right {
-    height: 100%;
-    background: linear-gradient(to right, transparent, white);
-    width: 150px;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  
-  @keyframes move {
-    0% {
-      transform: translateX(0);
-    }
-  
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-  
+}

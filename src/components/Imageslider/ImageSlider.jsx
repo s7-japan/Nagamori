@@ -12,16 +12,14 @@ const ImageSlider = () => {
         <div className="moving">
           <div className="left"></div>
           <div className="move">
-            <img src={sliderone} alt="" className="h-25 md:h-35" />
-            <img src={slidertwo} alt="" className="h-25 md:h-35" />
-            <img src={sliderthree} alt="" className="h-25 md:h-35" />
-            <img src={sliderfour} alt="" className="h-25 md:h-35" />
-          </div>
-          <div className="move">
-            <img src={sliderone} alt="" className="h-25 md:h-35" />
-            <img src={slidertwo} alt="" className="h-25 md:h-35" />
-            <img src={sliderthree} alt="" className="h-25 md:h-35" />
-            <img src={sliderfour} alt="" className="h-25 md:h-35" />
+            <img src={sliderone} alt="" className="h-25 md:h-30" />
+            <img src={slidertwo} alt="" className="h-25 md:h-30" />
+            <img src={sliderthree} alt="" className="h-25 md:h-30" />
+            <img src={sliderfour} alt="" className="h-25 md:h-30" />
+            <img src={sliderone} alt="" className="h-25 md:h-30" />
+            <img src={slidertwo} alt="" className="h-25 md:h-30" />
+            <img src={sliderthree} alt="" className="h-25 md:h-30" />
+            <img src={sliderfour} alt="" className="h-25 md:h-30" />
           </div>
           <div className="right"></div>
         </div>
