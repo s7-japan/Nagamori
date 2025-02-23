@@ -4,7 +4,7 @@ import tick from "../assets/tick.png";
 const Contact3 = () => {
   return (
     <div>
-      <h1 className="text-center text-[8vw] md:text-[2.5vw] mb-1">Contact</h1>
+      <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 cambria">Contact</h1>
       <div className="w-15 h-[1.5px] bg-[#707070] relative left-1/2 -translate-x-1/2 mb-3"></div>
       <p className="text-center mb-15 text-[4vw] md:text-[1.3vw] font-light">
         お問合せ
@@ -12,20 +12,29 @@ const Contact3 = () => {
 
       <div className="w-full flex justify-center mb-15">
         <div className="flex items-center">
-          <div
-            className={`w-15 h-15 md:w-20 md:h-20 bg-[#82CCC4] rounded-full flex items-center justify-center text-white text-[5vw] md:text-[1.6vw]`}
-          >
-            1
+          <div className="text-center">
+            <div
+              className={`w-15 h-15 md:w-20 md:h-20 bg-[#82CCC4] rounded-full flex items-center justify-center text-white text-[5vw] md:text-[1.6vw]`}
+            >
+              1
+            </div>
+            <p className="mt-2 font-light">ご入力</p>
           </div>
-          <div className="w-15 md:w-40 bg-[#82CCC4] h-1"></div>
-          <div
-            className={`w-15 h-15 md:w-20 md:h-20 bg-[#82CCC4] rounded-full flex items-center justify-center text-white text-[5vw] md:text-[1.6vw]`}
-          >
-            2
+          <div className="w-15 md:w-30 bg-[#82CCC4] h-1 mb-7"></div>
+          <div className="text-center">
+            <div
+              className={`w-15 h-15 md:w-20 md:h-20 bg-[#82CCC4] rounded-full flex items-center justify-center text-white text-[5vw] md:text-[1.6vw]`}
+            >
+              2
+            </div>
+            <p className="mt-2 font-light">ご確認</p>
           </div>
-          <div className="w-15 md:w-40 bg-[#82CCC4] h-1"></div>
-          <div className="w-15 h-15 md:w-20 md:h-20 bg-[#82CCC4] rounded-full flex items-center justify-center text-white text-[5vw] md:text-[1.6vw]">
-            3
+          <div className="w-15 md:w-30 bg-[#82CCC4] h-1 mb-7"></div>
+          <div className="text-center">
+            <div className="w-15 h-15 md:w-20 md:h-20 bg-[#82CCC4] rounded-full flex items-center justify-center text-white text-[5vw] md:text-[1.6vw]">
+              3
+            </div>
+            <p className="mt-2 font-light">送信</p>
           </div>
         </div>
       </div>

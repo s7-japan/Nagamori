@@ -14,10 +14,10 @@ import p12 from "../assets/p12.png";
 
 const Portfolio = () => {
   return (
-    <div className="px-6 md:px-[13vw] flex flex-col items-center mt-15 md:mt-30">
-      <h1 className="text-center text-[8vw] md:text-[4vw] mb-1">Portfolio</h1>
-      <div className="w-15 h-[1.5px] bg-[#707070] mb-3"></div>
-      <p className="text-center mb-12 md:mb-24 text-[4vw] md:text-[1.3vw] font-light">
+    <div className="px-6 md:px-[13vw] flex flex-col items-center mt-15 md:mt-20">
+      <h1 className="text-center text-[15vw] md:text-[4vw] mb-1 cambria">Portfolio</h1>
+      <div className="w-25 h-[1.5px] bg-[#707070] mb-3"></div>
+      <p className="text-center mb-12 md:mb-18 text-[4vw] md:text-[1.3vw] font-light">
         施術例
       </p>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
@@ -34,7 +34,7 @@ const Portfolio = () => {
         <img src={p11} alt="" />
         <img src={p12} alt="" />
       </div>
-      <button className="border-2 border-[#979797] py-3 px-10 mt-24">
+      <button className="border-2 border-[#979797] py-4 w-50 mt-15 md:mt-20">
         予約確認はこちら→
       </button>
     </div>

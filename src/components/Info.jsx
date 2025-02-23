@@ -20,13 +20,13 @@ const Info = () => {
       </div>
       <div className="w-full md:w-1/2 flex flex-col">
         <div className="hidden md:block">
-          <p className="text-[#7070706e] text-[1.5vw]">Makeup Artist</p>
+          <p className="text-[#7070706e] text-[1.6vw]">Makeup Artist</p>
           <div className="flex flex-col">
             <div className="flex gap-16 items-center">
-              <h1 className="text-[3.5vw]">永森友美</h1>
+              <h1 className="text-[3.5vw] font-light">永 森 友 美</h1>
               <img src={instagram} alt="" className="h-10" />
             </div>
-            <p className="italic text-[1.2vw]">Nagamori Tomomi</p>
+            <p className="italic text-[1.3vw]">Nagamori Tomomi</p>
           </div>
         </div>
         <p className="text-lg md:text-[1.05vw] mt-5 md:mt-8 font-light">
@@ -49,9 +49,11 @@ const Info = () => {
           <br />
           世界で開催されるアートメイクイベントにスピーカーや審査員として招待される。
         </p>
-        <button className="border-2 border-[#979797] py-2 px- w-60 mt-8">
+        <div className="flex justify-center md:justify-start">
+        <button className="border-2 border-[#979797] py-3 w-50 mt-8">
           予約確認はこちら→
         </button>
+        </div>
       </div>
     </div>
   );

@@ -7,8 +7,8 @@ const Treatment = () => {
   return (
     <div>
       <div className="pt-28 md:pt-30 px-6 md:px-[13vw]">
-        <p className="text-[3vw] md:text-[1.3vw] mb-2">ホーム 施術メニュー（料金表）</p>
-        <p className="text-[7vw] text-center md:text-left md:text-[2.5vw] mb-5">施術メニュー（料金表）</p>
+        <p className="text-[3vw] md:text-[1.3vw] mb-2 text-[#00000063] md:text-black">ホーム 施術メニュー（料金表）</p>
+        <p className="text-[7vw] text-center md:text-left md:text-[3.3vw] mb-5">施術メニュー（料金表）</p>
       </div>
       <div className="w-full h-[75vw] md:h-[25vw] bg-[#EFEFEF] md:flex md:px-[13vw]">
         <div className="w-full md:w-1/2 h-full">

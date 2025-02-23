@@ -6,7 +6,7 @@ const CalenderSchendule = () => {
     <div className="w-full px-4 sm:px-8 md:px-80 overflow-x-hidden">
       {/* Header Section */}
       <div className="flex flex-col items-center mb-6">
-        <h1 className="text-center text-[8vw] md:text-[3vw] mb-2">
+        <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-2 cambria">
           Working Schedule
         </h1>
         <div className="w-25 h-[1.5px] bg-[#707070] relative mb-3"></div>

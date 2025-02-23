@@ -8,7 +8,7 @@ const TreatmentCard = () => {
   return (
     <div>
       <div className="px-6 md:px-[13vw] mb-30">
-        <h1 className="text-center text-[8vw] md:text-[2.2vw] mb-1">
+        <h1 className="text-center text-[8vw] md:text-[3.2vw] mb-1 cambria">
           Eyebrow cosmetic tattoo
         </h1>
         <div className="w-15 h-[1.5px] bg-[#707070] relative left-1/2 -translate-x-1/2 mb-3"></div>
@@ -66,7 +66,7 @@ const TreatmentCard = () => {
       </div>
 
       <div className="px-6 md:px-[13vw] mb-30">
-        <h1 className="text-center text-[8vw] md:text-[2.2vw] mb-1">lip cosmetic tattoo</h1>
+        <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 cambria">lip cosmetic tattoo</h1>
         <div className="w-15 h-[1.5px] bg-[#707070] relative left-1/2 -translate-x-1/2 mb-3"></div>
         <p className="text-center mb-10 text-[4vw] md:text-[1.3vw] font-light">
           リップアートメイク
@@ -120,7 +120,7 @@ const TreatmentCard = () => {
       </div>
 
       <div className="px-6 md:px-[13vw] mb-30">
-        <h1 className="text-center text-[8vw] md:text-[2.2vw] mb-1">
+        <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 cambria">
           Eyeline cosmetic tattoo
         </h1>
         <div className="w-15 h-[1.5px] bg-[#707070] relative left-1/2 -translate-x-1/2 mb-3"></div>
@@ -213,7 +213,7 @@ const TreatmentCard = () => {
       </div>
 
       <div className="px-6 md:px-[13vw] mb-30">
-        <h1 className="text-center text-[8vw] md:text-[2.2vw] mb-1">
+        <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 cambria">
           Hairline, Tear trough cosmetic tattoo
         </h1>
         <div className="w-15 h-[1.5px] bg-[#707070] relative left-1/2 -translate-x-1/2 mb-3"></div>
@@ -230,64 +230,64 @@ const TreatmentCard = () => {
           <p className="text-[4.3vw] md:text-[1.3vw] mt-6 md:text-left text-center">ヘアライン</p>
           <div className="mx-auto mt-5 border border-[#70707089]">
             <div className="md:flex w-full border-b border-[#70707089]">
-              <div className="py-6 border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
+              <div className="py-6 text-center md:text-left border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
               SMP (手のひらサイズ)
               </div>
-              <div className="py-6  pl-5 md:w-[45%]">（税込み）55,000 円</div>
+              <div className="py-6 text-center md:text-left  pl-5 md:w-[45%]">（税込み）55,000 円</div>
             </div>
             <div className="md:flex w-full">
-              <div className="py-6 border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
+              <div className="py-6 text-center md:text-left border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
               ヘアライントップ
               </div>
-              <div className="py-6  pl-5 md:w-[45%]">（税込み）11,000 円</div>
+              <div className="py-6 text-center md:text-left  pl-5 md:w-[45%]">（税込み）11,000 円</div>
             </div>
           </div>
           <p className="text-[4.3vw] md:text-[1.3vw] mt-6 md:text-left text-center">OR サイド</p>
           <div className="mx-auto mt-5 border border-[#70707089]">
             <div className="md:flex w-full border-b border-[#70707089]">
-              <div className="py-6 border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
+              <div className="py-6 text-center md:text-left border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
               ヘアライン 1回
               </div>
-              <div className="py-6  pl-5 md:w-[45%]">（税込み）88,000 円</div>
+              <div className="py-6 text-center md:text-left  pl-5 md:w-[45%]">（税込み）88,000 円</div>
             </div>
             <div className="md:flex w-full border-b border-[#70707089] ">
-              <div className="py-6 border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
+              <div className="py-6 text-center md:text-left border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
               ヘアライン 2回
               </div>
-              <div className="py-6  pl-5 md:w-[45%]">（税込み）66,000 円</div>
+              <div className="py-6 text-center md:text-left  pl-5 md:w-[45%]">（税込み）66,000 円</div>
             </div>
             <div className="md:flex w-full border-b border-[#70707089]">
-              <div className="py-6 border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
+              <div className="py-6 text-center md:text-left border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
               ヘアライン 3回以内	
               </div>
-              <div className="py-6  pl-5 md:w-[45%]">（税込み）27,500 円</div>
+              <div className="py-6 text-center md:text-left  pl-5 md:w-[45%]">（税込み）27,500 円</div>
             </div>
             <div className="md:flex w-full border-b border-[#70707089]">
-              <div className="py-6 border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
+              <div className="py-6 text-center md:text-left border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
               リタッチ 1年以内	
               </div>
-              <div className="py-6  pl-5 md:w-[45%]">（税込み）44,500 円</div>
+              <div className="py-6 text-center md:text-left  pl-5 md:w-[45%]">（税込み）44,500 円</div>
             </div>
             <div className="md:flex w-full ">
-              <div className="py-6 border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
+              <div className="py-6 text-center md:text-left border-b md:border-r border-[#70707089] pl-5 md:w-[55%] bg-[#ffd2d239]">
               リタッチ 1年以内	
               </div>
-              <div className="py-6  pl-5 md:w-[45%]">（税込み）55,000 円</div>
+              <div className="py-6 text-center md:text-left  pl-5 md:w-[45%]">（税込み）55,000 円</div>
             </div>
           </div>
           <p className="text-[4.3vw] md:text-[1.3vw] mt-6 md:text-left text-center">領域アートメイク</p>
           <div className="mx-auto mt-5 border border-[#70707089]">
             <div className="md:flex w-full border-b border-[#70707089]">
-              <div className="py-6 border-b md:border-r border-[#70707089]  pl-5 md:w-[55%] bg-[#ffd2d239]">
+              <div className="py-6 text-center md:text-left border-b md:border-r border-[#70707089]  pl-5 md:w-[55%] bg-[#ffd2d239]">
               領域 1回
               </div>
-              <div className="py-6  pl-5 md:w-[45%]">（税込み）33,000 円</div>
+              <div className="py-6 text-center md:text-left  pl-5 md:w-[45%]">（税込み）33,000 円</div>
             </div>
             <div className="md:flex w-full">
-              <div className="py-6 border-b md:border-r border-[#70707089]  pl-5 md:w-[55%] bg-[#ffd2d239]">
+              <div className="py-6 text-center md:text-left border-b md:border-r border-[#70707089]  pl-5 md:w-[55%] bg-[#ffd2d239]">
               領域リップ・チップリップ
               </div>
-              <div className="py-6  pl-5 md:w-[45%]">（税込み）33,000 円/ 回</div>
+              <div className="py-6 text-center md:text-left  pl-5 md:w-[45%]">（税込み）33,000 円/ 回</div>
             </div>
           </div>
         </div>

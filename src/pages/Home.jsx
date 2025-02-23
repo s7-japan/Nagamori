@@ -6,7 +6,6 @@ import Info from "../components/Info";
 import Portfolio from "../components/Portfolio";
 import Recommendation from "../components/Recommendation";
 import ImageSlider from "../components/Imageslider/ImageSlider";
-import CalendarSchedule from "../components/Calender/CalenderSchendule";
 
 const Home = () => {
   return (
