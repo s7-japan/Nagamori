@@ -1,0 +1,52 @@
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+  }
+  
+  .moving {
+    /* background-color: red; */
+    white-space: nowrap;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .move {
+    display: inline-block;
+    animation: move 20s linear infinite;
+  }
+  
+  .move img {
+    display: inline-block;
+    height: 120px;
+    margin-right: 10px;
+  }
+  .left {
+    height: 100%;
+    background: linear-gradient(to right, white, transparent);
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .right {
+    height: 100%;
+    background: linear-gradient(to right, transparent, white);
+    width: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
