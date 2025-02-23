@@ -34,7 +34,7 @@ const Portfolio = () => {
         <img src={p11} alt="" />
         <img src={p12} alt="" />
       </div>
-      <button className="border-2 border-[#979797] py-4 w-50 mt-15 md:mt-20">
+      <button className="border-2 border-[#979797] py-3 w-55 mt-15 md:mt-20">
         予約確認はこちら→
       </button>
     </div>

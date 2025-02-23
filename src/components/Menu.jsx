@@ -42,7 +42,7 @@ const Menu = () => {
           <p className="text-[3vw] md:text-[0.8vw]">￥ 100,000~</p>
         </div>
       </div>
-      <button className="border-2 border-[#979797] py-4 w-50 mt-4 md:mt-9">
+      <button className="border-2 border-[#979797] py-3 w-55 mt-4 md:mt-9">
         予約確認はこちら→
       </button>
       <p className="mt-4 md:mt-9 text-[3.3vw] md:text-[1vw]">初めての方も、ご気軽のお問い合わせください。</p>

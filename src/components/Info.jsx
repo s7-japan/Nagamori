@@ -50,7 +50,7 @@ const Info = () => {
           世界で開催されるアートメイクイベントにスピーカーや審査員として招待される。
         </p>
         <div className="flex justify-center md:justify-start">
-        <button className="border-2 border-[#979797] py-3 w-50 mt-8">
+        <button className="border-2 border-[#979797] py-3 w-55 mt-8">
           予約確認はこちら→
         </button>
         </div>

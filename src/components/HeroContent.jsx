@@ -29,7 +29,7 @@ const HeroContent = () => {
         <img src={intersection} alt="" className="w-full md:w-[80%]" />
       </div>
       <div className="flex justify-center">
-        <button className="md:hidden border-2 border-[#979797] text-[#979797] py-3 w-50 mt-6">
+        <button className="md:hidden border-2 border-[#979797] text-[#979797] py-3 w-55 mt-6">
           予約確認はこちら→
         </button>
       </div>
