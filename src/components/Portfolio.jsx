@@ -35,7 +35,7 @@ const Portfolio = () => {
         <img src={p11} alt="" />
         <img src={p12} alt="" />
       </div>
-      <img src={btn4} alt="" className="mt-10"/>
+      <img src={btn4} alt="" className="mt-10 w-60"/>
     </div>
   );
 };

@@ -22,13 +22,13 @@ const HeroContent = () => {
           <br />
           仕上がりが希望の⾊・形と異なるリスクがあります。ニードルの刺激により、発⾚・腫脹・疼痛・搔痒感が数⽇続く場合があります。また、感染・予期せぬアレルギー等の副作⽤が起こる可能性があります。
         </p>
-        <img src={btn1} alt="" className="w-80 mt-8"/>
+        <img src={btn1} alt="" className="w-60 mt-8 hidden md:block"/>
       </div>
       <div className="w-full md:w-1/2 flex justify-end">
         <img src={intersection} alt="" className="w-full md:w-[80%]" />
       </div>
       <div className="flex justify-center mt-10 md:hidden">
-        <img src={btn1} alt="" />
+        <img src={btn1} alt="" className="w-60"/>
       </div>
     </div>
   );

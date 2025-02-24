@@ -43,7 +43,7 @@ const Menu = () => {
           <p className="text-[3vw] md:text-[0.8vw]">￥ 100,000~</p>
         </div>
       </div>
-      <img src={btn2} alt="" className="mt-5"/>
+      <img src={btn2} alt="" className="mt-5 w-60"/>
       <p className="mt-4 md:mt-9 text-[3.3vw] md:text-[1vw]">初めての方も、ご気軽のお問い合わせください。</p>
     </div>
   );
