@@ -3,6 +3,7 @@ import one from "../assets/one.png";
 import two from "../assets/two.png";
 import three from "../assets/three.png";
 import four from "../assets/four.png";
+import btn2 from "../assets/btn2.png"
 
 const Menu = () => {
   return (
@@ -12,7 +13,7 @@ const Menu = () => {
       <p className="text-center mb-14 md:mb-12 text-[4vw] md:text-[1.1vw] font-light">
       施術メニュー
       </p>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-8 md:gap-8">
         <div>
           <div className="mb-1">
             <img src={three} alt="" />
@@ -42,9 +43,7 @@ const Menu = () => {
           <p className="text-[3vw] md:text-[0.8vw]">￥ 100,000~</p>
         </div>
       </div>
-      <button className="border-2 border-[#979797] py-3 w-55 mt-4 md:mt-9">
-        予約確認はこちら→
-      </button>
+      <img src={btn2} alt="" className="mt-5"/>
       <p className="mt-4 md:mt-9 text-[3.3vw] md:text-[1vw]">初めての方も、ご気軽のお問い合わせください。</p>
     </div>
   );

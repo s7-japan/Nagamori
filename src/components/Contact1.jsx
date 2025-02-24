@@ -1,4 +1,5 @@
 import React from "react";
+import btn5 from "../assets/btn5.png"
 
 const Contact1 = ({ formData, setFormData, onSubmit }) => {
   const handleInputChange = (e) => {
@@ -284,9 +285,7 @@ const Contact1 = ({ formData, setFormData, onSubmit }) => {
         </div>
 
         <div className="w-full flex justify-center mt-20">
-          <button type="submit" className="bg-[#00000013] px-20 py-4">
-            送信
-          </button>
+          <button type="submit"><img src={btn5} alt="" className="h-11"/></button>
         </div>
       </form>
     </div>

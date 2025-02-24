@@ -1,6 +1,7 @@
 import React from "react";
 import intersection from "../assets/Intersection2.png";
 import instagram from "../assets/instalogo.png";
+import btn3 from "../assets/btn3.png"
 
 const Info = () => {
   return (
@@ -16,9 +17,9 @@ const Info = () => {
         </div>
       </div>
       <div className="w-full md:w-1/2">
-        <img src={intersection} alt="" className="w-full md:w-[80%]" />
+        <img src={intersection} alt="" className="w-full" />
       </div>
-      <div className="w-full md:w-1/2 flex flex-col">
+      <div className="w-full md:w-1/2 flex flex-col md:justify-between pl-0 md:pl-20">
         <div className="hidden md:block">
           <p className="text-[#7070706e] text-[1.6vw]">Makeup Artist</p>
           <div className="flex flex-col">
@@ -29,7 +30,7 @@ const Info = () => {
             <p className="italic text-[1.3vw]">Nagamori Tomomi</p>
           </div>
         </div>
-        <p className="text-lg md:text-[1.05vw] mt-5 md:mt-8 font-light">
+        <p className="text-lg md:text-[1vw] mt-5 md:mt-0 font-light leading-9 md:leading-7 2xl:leading-8 2xl:text-[1.4vw]">
           総合病院での看護経験の後，大手美容外科，美容皮膚科で
           長年経験を積み，美容に関する技術と知識を習得その後，HAAB
           でアートメイク部門を立ち上げる。
@@ -50,9 +51,7 @@ const Info = () => {
           世界で開催されるアートメイクイベントにスピーカーや審査員として招待される。
         </p>
         <div className="flex justify-center md:justify-start">
-        <button className="border-2 border-[#979797] py-3 w-55 mt-8">
-          予約確認はこちら→
-        </button>
+        <img src={btn3} alt="" className="mt-10 md:mt-0"/>
         </div>
       </div>
     </div>

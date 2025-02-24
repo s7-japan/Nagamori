@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-[#FCFCFC] px-12  md:px-[14vw] pt-[5vw] mt-30 md:mt-10">
       <div className="flex items-center md:gap-4 justify-between md:justify-start">
-        <img src={logo} alt="" className="sm:h-14 md:h-23 h-18" />
+        <img src={logo} alt="" className="sm:h-14 md:h-23 h-15" />
         <img src={instalogo} alt="" className="sm:h-15 h-12" />
       </div>
       <p className="mt-5 font-light sm:text-sm text-[13px]">

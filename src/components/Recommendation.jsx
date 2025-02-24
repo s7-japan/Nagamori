@@ -21,7 +21,12 @@ const Recommendation = () => {
           <img src={d1} alt="" className="h-[105vw] md:h-[80%]" />
         </div>
         <div className="w-full md:w-[70%] md:pl-16 pt-0 md:pt-6 px-1 md:px-0">
-          <p className="text-[5vw] md:text-[1.2vw] text-[#70707079]">Doctor</p>
+          <div className="flex gap-2 items-end">
+            <div className="w-7 h-[1.5px] bg-[#70707079] mb-3"></div>
+            <p className="text-[6vw] md:text-[1.2vw] text-[#70707079] cambria">
+              doctor
+            </p>
+          </div>
           <h1 className="text-[12vw] md:text-[3vw] font-light">⑤大西 真代</h1>
           <p className="italic text-[6.5vw] md:text-[1.5vw] mb-5">
             GRACY TOKYO CLINIC 院長
@@ -40,7 +45,12 @@ const Recommendation = () => {
           <img src={d2} alt="" className="h-[105vw] md:h-[80%]" />
         </div>
         <div className="w-full md:w-[70%] md:pl-16 pt-0 md:pt-6 px-1 md:px-0">
-          <p className="text-[5vw] md:text-[1.2vw] text-[#70707079]">Doctor</p>
+          <div className="flex gap-2 items-end">
+            <div className="w-7 h-[1.5px] bg-[#70707079] mb-3"></div>
+            <p className="text-[6vw] md:text-[1.2vw] text-[#70707079] cambria">
+              doctor
+            </p>
+          </div>
           <h1 className="text-[12vw] md:text-[3vw] font-light">④池田 欣生</h1>
           <p className="italic text-[6.5vw] md:text-[1.5vw] mb-5">
             SHIBAURA B.CLINIC 院長
@@ -59,7 +69,12 @@ const Recommendation = () => {
           <img src={d3} alt="" className="h-[105vw] md:h-[80%]" />
         </div>
         <div className="w-full md:w-[70%] md:pl-16 pt-0 md:pt-6 px-1 md:px-0">
-          <p className="text-[5vw] md:text-[1.2vw] text-[#70707079]">Doctor</p>
+          <div className="flex gap-2 items-end">
+            <div className="w-7 h-[1.5px] bg-[#70707079] mb-3"></div>
+            <p className="text-[6vw] md:text-[1.2vw] text-[#70707079] cambria">
+              doctor
+            </p>
+          </div>
           <h1 className="text-[12vw] md:text-[3vw] font-light">③田中優太</h1>
           <p className="italic text-[6.5vw] md:text-[1.5vw] mb-5">
             HAAB DREAM BEAUTY CLINIC 東京本院 院長
@@ -75,7 +90,12 @@ const Recommendation = () => {
           <img src={d4} alt="" className="h-[105vw] md:h-[80%]" />
         </div>
         <div className="w-full md:w-[70%] md:pl-16 pt-0 md:pt-6 px-1 md:px-0">
-          <p className="text-[5vw] md:text-[1.2vw] text-[#70707079]">Doctor</p>
+          <div className="flex gap-2 items-end">
+            <div className="w-7 h-[1.5px] bg-[#70707079] mb-3"></div>
+            <p className="text-[6vw] md:text-[1.2vw] text-[#70707079] cambria">
+              doctor
+            </p>
+          </div>
           <h1 className="text-[12vw] md:text-[3vw] font-light">①前田 拓摩</h1>
           <p className="italic text-[6.5vw] md:text-[1.5vw] mb-5">
             札幌ル・トロワ ビューティクリニック Vogue 院長
@@ -93,7 +113,12 @@ const Recommendation = () => {
           <img src={d5} alt="" className="h-[105vw] md:h-[80%]" />
         </div>
         <div className="w-full md:w-[70%] md:pl-16 pt-0 md:pt-6 px-1 md:px-0">
-          <p className="text-[5vw] md:text-[1.2vw] text-[#70707079]">Doctor</p>
+          <div className="flex gap-2 items-end">
+            <div className="w-7 h-[1.5px] bg-[#70707079] mb-3"></div>
+            <p className="text-[6vw] md:text-[1.2vw] text-[#70707079] cambria">
+              doctor
+            </p>
+          </div>
           <h1 className="text-[12vw] md:text-[3vw] font-light">②細井 龍</h1>
           <p className="italic text-[6.5vw] md:text-[1.5vw] mb-5">
             アマソラクリニック院長

@@ -1,9 +1,12 @@
 import React from "react";
+import btn5 from "../assets/btn5.png";
 
 const Contact2 = ({ formData, setFinalConfirmation }) => {
   return (
     <div>
-      <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 cambria">Contact</h1>
+      <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 cambria">
+        Contact
+      </h1>
       <div className="w-15 h-[1.5px] bg-[#707070] relative left-1/2 -translate-x-1/2 mb-3"></div>
       <p className="text-center mb-15 text-[4vw] md:text-[1.3vw] font-light">
         お問合せ
@@ -164,12 +167,12 @@ const Contact2 = ({ formData, setFinalConfirmation }) => {
         </div>
 
         <div className="w-full flex justify-center mt-20">
-          <button
+          <img
             onClick={() => setFinalConfirmation(true)}
-            className="bg-[#00000013] px-20 py-4"
-          >
-            送信
-          </button>
+            src={btn5}
+            alt=""
+            className="h-11"
+          />
         </div>
       </div>
     </div>

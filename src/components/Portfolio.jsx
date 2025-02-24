@@ -11,6 +11,7 @@ import p9 from "../assets/p9.png";
 import p10 from "../assets/p10.png";
 import p11 from "../assets/p11.png";
 import p12 from "../assets/p12.png";
+import btn4 from "../assets/btn4.png"
 
 const Portfolio = () => {
   return (
@@ -34,9 +35,7 @@ const Portfolio = () => {
         <img src={p11} alt="" />
         <img src={p12} alt="" />
       </div>
-      <button className="border-2 border-[#979797] py-3 w-55 mt-15 md:mt-20">
-        予約確認はこちら→
-      </button>
+      <img src={btn4} alt="" className="mt-10"/>
     </div>
   );
 };
