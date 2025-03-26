@@ -8,7 +8,7 @@ import Recommendation from "../components/Recommendation";
 import ImageSlider from "../components/Imageslider/ImageSlider";
 import AnimatedLoader from "../components/Loader/AnimatedLoader";
 import AnimatedLoaderMobile from "../components/Loader/AnimatedLoaderMobile";
-import HeroContent2 from "../components/heroContent2";
+import HeroContent2 from "../components/HeroContent2";
 import Menu2 from "../components/Menu2";
 
 const Home = () => {
@@ -23,8 +23,8 @@ const Home = () => {
       <HeroSection />
       <ImageSlider />
       <HeroContent />
-      <HeroContent2/>
-      <Menu2/>
+      <HeroContent2 />
+      <Menu2 />
       <Menu />
       <Info />
       <Portfolio />
