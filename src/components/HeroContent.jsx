@@ -13,7 +13,7 @@ const HeroContent = () => {
         <p className="text-[7vw] md:text-[3vw] mt-15 md:mt-25 font-light">
           リアルで自然な眉を描く
         </p>
-        <p className="text-[3.7vw] md:text-[1vw] mt-7 md:mt-8 font-light mb-20 md:mb-0 leading-9 md:leading-8">
+        <p className="text-[3.7vw] md:text-[1vw] mt-7 md:mt-8 font-light mb-20 md:mb-0 leading-9 md:leading-7">
           現在の主流としては使い捨ての医療⽤ニードルと⾊素を⽤いて、⽪膚の真⽪上層部に染⾊していく⾏為です。
           <br />
           <br />
@@ -22,7 +22,7 @@ const HeroContent = () => {
           <br />
           仕上がりが希望の⾊・形と異なるリスクがあります。ニードルの刺激により、発⾚・腫脹・疼痛・搔痒感が数⽇続く場合があります。また、感染・予期せぬアレルギー等の副作⽤が起こる可能性があります。
         </p>
-        <img src={btn1} alt="" className="w-60 mt-8 hidden md:block"/>
+        
       </div>
       <div className="w-full md:w-1/2 flex justify-end">
         <img src={intersection} alt="" className="w-full md:w-[80%]" />

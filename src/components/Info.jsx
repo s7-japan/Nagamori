@@ -1,5 +1,5 @@
 import React from "react";
-import intersection from "../assets/Intersection2.png";
+import intersection from "../assets/Intersection_2.png";
 import instagram from "../assets/instalogo.png";
 import btn3 from "../assets/btn3.png"
 

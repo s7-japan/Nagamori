@@ -1,6 +1,5 @@
 import React from "react";
-import hero2 from "../assets/hero2.png";
-import hero3 from "../assets/hero3.png";
+import hero from "../assets/hero_removed.png";
 import logo from "../assets/logo.png";
 import CalendarSchedule from "../components/Calender/CalenderSchendule";
 
@@ -11,30 +10,16 @@ const Schedule = () => {
         <p className="text-[3vw] md:text-[1.3vw] mb-2 text-[#00000063] md:text-black">
           ホーム 出勤予定表（予約ページ）
         </p>
-        <p className="text-[7vw] text-center md:text-left md:text-[3.3vw] mb-5">
+        <p className="text-[7vw] text-center md:text-left md:text-[3.3vw] mb-5 px-20 md:px-0">
           出勤予定表（予約ページ）
         </p>
       </div>
       <div className="w-full h-[75vw] md:h-[25vw] bg-[#EFEFEF] md:flex md:px-[13vw]">
-        <div className="w-full h-full relative">
-          <img
-            src={hero2}
-            alt=""
-            className="hidden md:block h-full w-full object-cover"
-          />
-          <img
-            src={hero3}
-            alt=""
-            className="md:hidden h-full w-full object-cover"
-          />
-          <div className="absolute top-5 right-[5%] md:top-[45%] md:left-[60%] md:w-100 w-40">
-            <img
-              src={logo}
-              alt="logo"
-              height={400}
-              width={400}
-            />
-          </div>
+        <div className="w-full md:w-1/2 h-full">
+          <img src={hero} alt="" className="h-full w-full object-cover" />
+        </div>
+        <div className="w-1/2 h-full items-center hidden md:flex">
+          <img src={logo} alt="" className="h-25" />
         </div>
       </div>
       <div className="px-6 text-[3vw] leading-8 md:px-[13vw] mt-8 md:text-[1.4vw] mb-20">
