@@ -16,7 +16,7 @@ const Recommendation = () => {
         提携先クリニックからひとこと
       </p>
 
-      <div className="md:grid grid-cols-1 md:grid-cols-3 md:gap-x-16 md:gap-y-40 md:pb-40">
+      <div className="md:grid grid-cols-1 md:grid-cols-3 md:gap-x-16 md:gap-y-40 md:pb-20">
         <div className="mb-20 md:mb-0">
           <div>
             <img src={d4} alt="" className="w-full h-full object-cover"/>

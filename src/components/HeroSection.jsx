@@ -12,8 +12,8 @@ export default function HeroSection() {
         />
       </div>
 
-      <div className="flex flex-col justify-center absolute top-50 right-6 md:top-[45%] xl:top-[40%] 2xl:top-[45%] md:left-[60%]">
-        <img src={logo} alt="logo" height={400} width={400} className="w-44"/>
+      <div className="flex flex-col justify-center absolute top-50 right-6 md:top-[42%] xl:top-[22%] xl:left-[50%] 2xl:top-[22%] 2xl:left-[50%] md:left-[50%]">
+        <img src={logo} alt="logo" height={400} width={400} className="w-44 md:w-[40vw]"/>
         <p className="text-[2.8vw] md:text-[16px] font-light">永森 友美 / Beauty Angel Master</p>
       </div>
     </div>
