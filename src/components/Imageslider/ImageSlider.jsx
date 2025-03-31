@@ -9,17 +9,25 @@ const ImageSlider = () => {
   return (
     <>
       <div id="main">
-        <div className="moving">
+        <div className="moving mt-4 md:mt-0">
           <div className="left"></div>
           <div className="move">
-            <img src={sliderone} alt="" className="h-25 md:h-30" />
-            <img src={slidertwo} alt="" className="h-25 md:h-30" />
-            <img src={sliderthree} alt="" className="h-25 md:h-30" />
-            <img src={sliderfour} alt="" className="h-25 md:h-30" />
-            <img src={sliderone} alt="" className="h-25 md:h-30" />
-            <img src={slidertwo} alt="" className="h-25 md:h-30" />
-            <img src={sliderthree} alt="" className="h-25 md:h-30" />
-            <img src={sliderfour} alt="" className="h-25 md:h-30" />
+            <img src={sliderone} alt="" className="h-25 md:h-[9vw]" />
+            <img src={slidertwo} alt="" className="h-25 md:h-[9vw]" />
+            <img src={sliderthree} alt="" className="h-25 md:h-[9vw]" />
+            <img src={sliderfour} alt="" className="h-25 md:h-[9vw]" />
+            <img src={sliderone} alt="" className="h-25 md:h-[9vw]" />
+            <img src={slidertwo} alt="" className="h-25 md:h-[9vw]" />
+            <img src={sliderthree} alt="" className="h-25 md:h-[9vw]" />
+            <img src={sliderfour} alt="" className="h-25 md:h-[9vw]" />
+            <img src={sliderone} alt="" className="h-25 md:h-[9vw]" />
+            <img src={slidertwo} alt="" className="h-25 md:h-[9vw]" />
+            <img src={sliderthree} alt="" className="h-25 md:h-[9vw]" />
+            <img src={sliderfour} alt="" className="h-25 md:h-[9vw]" />
+            <img src={sliderone} alt="" className="h-25 md:h-[9vw]" />
+            <img src={slidertwo} alt="" className="h-25 md:h-[9vw]" />
+            <img src={sliderthree} alt="" className="h-25 md:h-[9vw]" />
+            <img src={sliderfour} alt="" className="h-25 md:h-[9vw]" />
           </div>
           <div className="right"></div>
         </div>

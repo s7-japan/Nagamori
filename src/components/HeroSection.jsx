@@ -1,20 +1,19 @@
-import logo from "../assets/logo.png";
+import logo from "../assets/newLogo.svg";
 import heroimage from "../assets/hero.png";
 
 export default function HeroSection() {
   return (
-    <div className="bg-[#E6E6E6] h-[90vw] md:h-[45vw] w-full flex pt-10 mb-10 md:mb-0">
-      <div className="h-full">
-        <img
-          src={heroimage}
-          alt="hero"
-          className="object-cover h-[75%] relative top-22 -left-16 md:h-[43vw] md:-top-2 md:-left-10"
-        />
+    <div className="bg-[#E6E6E6] h-[75vw] md:h-[38vw] w-full flex pt-24 md:pt-10 md:mb-0">
+      <div className="w-1/2 h-full">
+        <img src={heroimage} alt="" className="h-full w-full object-cover" />
       </div>
-
-      <div className="flex flex-col justify-center absolute top-50 right-6 md:top-[42%] xl:top-[22%] xl:left-[50%] 2xl:top-[22%] 2xl:left-[50%] md:left-[50%]">
-        <img src={logo} alt="logo" height={400} width={400} className="w-44 md:w-[40vw]"/>
-        <p className="text-[2.8vw] md:text-[16px] font-light">永森 友美 / Beauty Angel Master</p>
+      <div className="w-1/2 h-full flex flex-col items-center justify-center">
+        <div>
+          <img src={logo} alt="" className="md:h-[9vw] h-[11vw]" />
+          <p className="md:text-[1.2vw] text-[3vw] pl-[1vw] text-[#707070]">
+            永森 友美 / Beauty Angel Master
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -1,10 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Sikita";
+  src: url("./assets/fonts/Sitka.ttc");
+}
+
 * {
   font-family: "Noto Sans JP", serif;
 }
 
+.noto {
+  font-family: "Noto Sans JP";
+}
+
 .cambria {
   font-family: Cambria, serif;
+}
+
+.sikita {
+  font-family: "Sikita";
 }

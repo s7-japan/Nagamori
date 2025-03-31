@@ -11,14 +11,17 @@ import p9 from "../assets/p9.png";
 import p10 from "../assets/p10.png";
 import p11 from "../assets/p11.png";
 import p12 from "../assets/p12.png";
-import btn4 from "../assets/btn4.png"
+import btn6 from "../assets/btn6.svg";
 
 const Portfolio = () => {
   return (
-    <div className="px-6 md:px-[13vw] flex flex-col items-center mt-15 md:mt-20">
-      <h1 className="text-center text-[15vw] md:text-[4vw] mb-1 cambria">Portfolio</h1>
+    <div className="px-6 md:px-[16vw] flex flex-col items-center mt-15 md:mt-[8vw] relative">
+      <h1 className="text-center text-[15vw] md:text-[4vw] mb-1 sikita">
+        Portfolio
+      </h1>
+      <div className="absolute top-0 bg-[#B6BFBC] right-0 h-[95%] w-[28%] opacity-[12%] hidden md:block -z-10"></div>
       <div className="w-25 h-[1.5px] bg-[#707070] mb-3"></div>
-      <p className="text-center mb-12 md:mb-18 text-[4vw] md:text-[1.3vw] font-light">
+      <p className="text-center mb-14 md:mb-12 text-[4vw] md:text-[1.1vw] text-[#707070] font-[600]">
         施術例
       </p>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
@@ -35,7 +38,7 @@ const Portfolio = () => {
         <img src={p11} alt="" />
         <img src={p12} alt="" />
       </div>
-      <img src={btn4} alt="" className="mt-10 w-60"/>
+      <img src={btn6} alt="" className="mt-10 w-[15vw] cursor-pointer" />
     </div>
   );
 };

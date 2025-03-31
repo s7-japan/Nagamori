@@ -1,7 +1,44 @@
 import React from "react";
 import btn5 from "../assets/btn5.png";
+import emailjs from "emailjs-com";
 
 const Contact2 = ({ formData, setFinalConfirmation }) => {
+  const sendEmail = () => {
+    const emailParams = {
+      consultation: formData.consultation,
+      name: formData.name,
+      nameKana: formData.nameKana,
+      email: formData.email,
+      message: formData.message,
+      phone: formData.phone,
+      age: formData.age,
+      gender: formData.gender === "male" ? "男" : "女",
+      referralSource: formData.referralSource,
+    };
+
+    emailjs
+      .send(
+        "service_d4n1nzm",
+        "template_qon1f9i",
+        emailParams,
+        "F6gcOpd9AYgZmi-dS"
+      )
+      .then(
+        (response) => {
+          console.log(
+            "Email sent successfully:",
+            response.status,
+            response.text
+          );
+          setFinalConfirmation(true);
+        },
+        (error) => {
+          console.error("Failed to send email:", error);
+          alert("Failed to send email. Please try again.");
+        }
+      );
+  };
+
   return (
     <div>
       <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 cambria">
@@ -167,12 +204,7 @@ const Contact2 = ({ formData, setFinalConfirmation }) => {
         </div>
 
         <div className="w-full flex justify-center mt-20">
-          <img
-            onClick={() => setFinalConfirmation(true)}
-            src={btn5}
-            alt=""
-            className="h-11"
-          />
+          <img onClick={sendEmail} src={btn5} alt="" className="h-11" />
         </div>
       </div>
     </div>

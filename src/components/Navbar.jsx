@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
-import { Link, useNavigate, useLocation } from "react-router-dom";
-import logo from "../assets/logo.png";
+import { Link, useNavigate, useLocation, Router } from "react-router-dom";
+import logo from "../assets/newLogo.svg";
 import { CiMenuBurger } from "react-icons/ci";
 import { RxCross1 } from "react-icons/rx";
+import line from "../assets/line.svg";
+import Nlogo from "../assets/Nlogo.svg";
 
 export default function Navbar({ sidebar, setSidebar }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,7 +46,7 @@ export default function Navbar({ sidebar, setSidebar }) {
 
   return (
     <div
-      className={`flex justify-between items-center border-b border-[#70707081] md:border-0 lg:items-end px-5 py-3 md:py-3 fixed top-0 left-0 w-full z-10 ${
+      className={`flex justify-between items-center border-b border-[#70707081] md:border-0 py-5 md:py-0 md:pb-5 lg:items-end px-5 fixed top-0 left-0 w-full z-20 ${
         isScrolled ? "bg-white" : "lg:bg-transparent bg-white"
       }`}
     >
@@ -55,49 +57,85 @@ export default function Navbar({ sidebar, setSidebar }) {
           }}
           src={logo}
           alt="logo"
-          height={220}
-          width={220}
-          className="cursor-pointer"
+          className="cursor-pointer h-[4.1vw] hidden md:block"
+        />
+        <img
+          onClick={() => {
+            navigate("/");
+          }}
+          src={Nlogo}
+          alt="logo"
+          className="cursor-pointer h-[10vw] md:hidden"
         />
       </div>
       <div>
-        <div className="gap-20 pr-20 hidden lg:flex">
-          <Link
+        <div className="hidden md:flex flex-col items-end gap-3">
+          <div
             onClick={() => {
-              setActiveMenu("home");
+              window.location.replace("https://line.me/R/ti/p/@321iyeoj");
             }}
-            className={`${activeMenu === "home" && "underline"}`}
-            to={"/"}
+            className="bg-[#06C755] cursor-pointer h-[3vw] w-[12vw] rounded-b-md mr-20 flex items-center justify-center"
           >
-            ホーム
-          </Link>
-          <Link
-            onClick={() => {
-              setActiveMenu("treatment");
-            }}
-            className={`${activeMenu === "treatment" && "underline"}`}
-            to={"/treatment"}
-          >
-            施術メニュー
-          </Link>
-          <Link
-            onClick={() => {
-              setActiveMenu("schedule");
-            }}
-            className={`${activeMenu === "schedule" && "underline"}`}
-            to={"/schedule"}
-          >
-            出勤予定表
-          </Link>
-          <Link
-            onClick={() => {
-              setActiveMenu("contact");
-            }}
-            className={`${activeMenu === "contact" && "underline"}`}
-            to={"/contact"}
-          >
-            お問合せ
-          </Link>
+            <img src={line} alt="" className="h-[90%] object-contain" />
+          </div>
+          <div className="gap-[8vw] pr-20 hidden lg:flex">
+            <Link
+              onClick={() => {
+                setActiveMenu("home");
+              }}
+              className={` text-[0.95vw] relative`}
+              to={"/"}
+            >
+              ホーム
+              <div
+                className={`absolute -bottom-[.5vw] h-[1px] w-full bg-black ${
+                  activeMenu === "home" ? "block" : "hidden"
+                }`}
+              ></div>
+            </Link>
+            <Link
+              onClick={() => {
+                setActiveMenu("treatment");
+              }}
+              className={` text-[0.95vw] relative`}
+              to={"/treatment"}
+            >
+              施術メニュー
+              <div
+                className={`absolute -bottom-[.5vw] h-[1px] w-full bg-black ${
+                  activeMenu === "treatment" ? "block" : "hidden"
+                }`}
+              ></div>
+            </Link>
+            <Link
+              onClick={() => {
+                setActiveMenu("schedule");
+              }}
+              className={`relative text-[0.95vw]`}
+              to={"/schedule"}
+            >
+              出勤予定表
+              <div
+                className={`absolute -bottom-[.5vw] h-[1px] w-full bg-black ${
+                  activeMenu === "schedule" ? "block" : "hidden"
+                }`}
+              ></div>
+            </Link>
+            <Link
+              onClick={() => {
+                setActiveMenu("contact");
+              }}
+              className={`relative text-[0.95vw]`}
+              to={"/contact"}
+            >
+              お問合せ
+              <div
+                className={`absolute -bottom-[.5vw] h-[1px] w-full bg-black ${
+                  activeMenu === "contact" ? "block" : "hidden"
+                }`}
+              ></div>
+            </Link>
+          </div>
         </div>
         <div className="lg:hidden">
           {sidebar ? (

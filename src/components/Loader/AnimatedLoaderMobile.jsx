@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/newLogo.svg";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
