@@ -1,5 +1,5 @@
 import React from "react";
-import btn5 from "../assets/btn5.png"
+import btn5 from "../assets/btn5.png";
 
 const Contact1 = ({ formData, setFormData, onSubmit }) => {
   const handleInputChange = (e) => {
@@ -38,10 +38,12 @@ const Contact1 = ({ formData, setFormData, onSubmit }) => {
 
   return (
     <div>
-      <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 cambria">Contact</h1>
+      <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 cambria">
+        Contact
+      </h1>
       <div className="w-15 h-[1.5px] bg-[#707070] relative left-1/2 -translate-x-1/2 mb-3"></div>
       <p className="text-center mb-15 text-[4vw] md:text-[1.3vw] font-light">
-        お問合せ
+        お問い合わせ内容
       </p>
 
       <div className="w-full flex justify-center mb-15">
@@ -285,7 +287,9 @@ const Contact1 = ({ formData, setFormData, onSubmit }) => {
         </div>
 
         <div className="w-full flex justify-center mt-20">
-          <button type="submit"><img src={btn5} alt="" className="h-11"/></button>
+          <button type="submit">
+            <img src={btn5} alt="" className="h-11" />
+          </button>
         </div>
       </form>
     </div>

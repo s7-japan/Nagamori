@@ -46,7 +46,7 @@ const Contact2 = ({ formData, setFinalConfirmation }) => {
       </h1>
       <div className="w-15 h-[1.5px] bg-[#707070] relative left-1/2 -translate-x-1/2 mb-3"></div>
       <p className="text-center mb-15 text-[4vw] md:text-[1.3vw] font-light">
-        お問合せ
+      お問い合わせ内容
       </p>
 
       <div className="w-full flex justify-center mb-15">

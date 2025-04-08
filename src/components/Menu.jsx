@@ -63,10 +63,24 @@ const Menu = () => {
           </p>
         </div>
       </div>
-      <img src={btn2} alt="" className="mt-[3vw] hidden md:block md:w-[15vw] cursor-pointer" />
-      <img src={btn3} alt="" className="mt-[10vw] w-full md:hidden cursor-pointer" />
+      <img
+      onClick={()=>{
+        window.location.replace("/treatment")
+      }}
+        src={btn2}
+        alt=""
+        className="mt-[3vw] hidden md:block md:w-[15vw] cursor-pointer"
+      />
+      <img
+      onClick={()=>{
+        window.location.replace("/treatment")
+      }}
+        src={btn3}
+        alt=""
+        className="mt-[10vw] w-full md:hidden cursor-pointer"
+      />
       <p className="mt-7 md:mt-[3vw] text-[3.3vw] md:text-[1.1vw]">
-        初めての方も、ご気軽のお問い合わせください。
+        初めての方も、お気軽にお問い合わせください。
       </p>
     </div>
   );

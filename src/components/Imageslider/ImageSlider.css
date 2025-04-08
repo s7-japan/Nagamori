@@ -36,7 +36,11 @@
 
 .right {
   height: 100%;
-  background: linear-gradient(to left, white, transparent); /* Adjusted gradient direction */
+  background: linear-gradient(
+    to left,
+    white,
+    transparent
+  ); /* Adjusted gradient direction */
   width: 150px;
   position: absolute;
   top: 0;
@@ -56,7 +60,13 @@
 
 /* Media query for mobile view */
 @media (max-width: 768px) {
-  .left, .right {
+  .move {
+    display: inline-block;
+    animation: move 7s linear infinite;
+    min-width: calc(200% + 40px); /* Ensure the container is wide enough */
+  }
+  .left,
+  .right {
     width: 50px; /* Decrease shadow effect on mobile */
   }
 }
