@@ -3,6 +3,7 @@ import intersection from "../assets/Intersection_2.png";
 import instagram from "../assets/instalogo.png";
 import btn4 from "../assets/btn4.svg";
 import btn5 from "../assets/btn5.svg";
+import { Link } from "react-router-dom";
 
 const Info = () => {
   return (
@@ -76,12 +77,20 @@ const Info = () => {
           世界で開催されるアートメイクイベントにスピーカーや審査員として招待される。
         </p>
         <div className="flex justify-center md:justify-start">
+          <Link to='/contact'>
+          <button>
           <img
             src={btn4}
             alt=""
             className="mt-10 md:mt-0 w-[15vw] hidden md:block cursor-pointer"
-          />
+            />
+            </button>
+            </Link>
+            <Link to='/contact'></Link>
+            <button>
           <img src={btn4} alt="" className="mt-10 md:mt-0 w-full md:hidden cursor-pointer" />
+            </button>
+            <Link/>
         </div>
       </div>
     </div>
