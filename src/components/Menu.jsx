@@ -5,6 +5,7 @@ import three from "../assets/menu3.png";
 import four from "../assets/menu4.png";
 import btn2 from "../assets/btn2.svg";
 import btn3 from "../assets/btn3.svg";
+import {Link} from 'react-router-dom';
 
 const Menu = () => {
   return (
@@ -71,14 +72,16 @@ const Menu = () => {
         alt=""
         className="mt-[3vw] hidden md:block md:w-[15vw] cursor-pointer"
       />
+      <Link to='https://nagamori.vercel.app/treatment'>
+      <button>
+
       <img
-      onClick={()=>{
-        window.location.replace("/treatment")
-      }}
-        src={btn3}
-        alt=""
-        className="mt-[10vw] w-full md:hidden cursor-pointer"
+      src={btn3}
+      alt=""
+      className="mt-[10vw] w-full md:hidden cursor-pointer"
       />
+      </button>
+      </Link>
       <p className="mt-7 md:mt-[3vw] text-[3.3vw] md:text-[1.1vw]">
         初めての方も、お気軽にお問い合わせください。
       </p>

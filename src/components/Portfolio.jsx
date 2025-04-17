@@ -12,6 +12,7 @@ import p10 from "../assets/p10.png";
 import p11 from "../assets/p11.png";
 import p12 from "../assets/p12.png";
 import btn6 from "../assets/btn6.svg";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
@@ -38,7 +39,13 @@ const Portfolio = () => {
         <img src={p11} alt="" />
         <img src={p12} alt="" />
       </div>
+      <Link to='https://www.instagram.com/tomomi_nagamori_art?igsh=bmtpYzRvZXQ1bXE1'>
+      <button>
+
       <img src={btn6} alt="" className="mt-10 w-[15vw] cursor-pointer" />
+      </button>
+      </Link>
+
     </div>
   );
 };

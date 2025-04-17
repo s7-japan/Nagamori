@@ -9,7 +9,7 @@ const Recommendation = () => {
   return (
     <div className="px-6 md:px-[16vw] mt-10 md:mt-[8vw] relative">
       <div className="absolute top-0 bg-[#B6BFBC] right-0 h-[30%] w-[28%] opacity-[12%] hidden md:block -z-10"></div>
-      <h1 className="text-center text-[10vw] md:text-[4vw] mb-1 sikita">
+      <h1 className="flex justify-center text-center text-[10vw] md:text-[4vw] mb-1 sikita">
         Recommendations
       </h1>
       <div className="w-25 h-[1.5px] bg-[#707070] relative left-1/2 -translate-x-1/2 mb-3"></div>
@@ -66,7 +66,7 @@ const Recommendation = () => {
                 doctor
               </p>
               <h1 className="text-[12vw] md:text-[2.1vw] mb-3 md:mb-2">
-                田中優太
+              田中 優太
               </h1>
               <p className="text-[6.5vw] md:text-[1.2vw] mb-3 min-h-[45px]">
                 HAAB DREAM BEAUTY CLINIC 東京本院 院長

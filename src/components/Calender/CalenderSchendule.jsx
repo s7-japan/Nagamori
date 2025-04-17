@@ -31,7 +31,7 @@ const CalenderSchendule = () => {
               <BiSolidRightArrow color="#A0A1BF" />
             </div>
             <div className="grid grid-cols-7 grid-rows-1">
-              {[1, 2, 3, 4, 5, 6, 7].map((day) => (
+              {['日', '月', '火', '水', '木', '金', '土'].map((day) => (
                 <div
                   key={day}
                   className="border-[1px] border-gray-600 flex items-center justify-center h-12 sm:h-14 text-sm sm:text-base"
