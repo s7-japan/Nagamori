@@ -43,7 +43,7 @@ const Contact3 = () => {
       <p className="text-left md:text-center leading-9 md:leading-12 font-light">
         下記の入力フォームに必須事項をご入力の上
         <br />
-        「入力内容を確認する」ボタンを押してください <br />
+        「送信」ボタンを押してください <br />
         ※WEBでのご予約は受け付けておりません。
       </p>
 
