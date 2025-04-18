@@ -2,11 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: black; */
 }
 
 .moving {
-  /* background-color: red; */
   white-space: nowrap;
   padding: 10px;
   overflow: hidden;
@@ -15,8 +13,12 @@
 
 .move {
   display: inline-block;
-  animation: move 20s linear infinite;
   min-width: calc(200% + 40px); /* Ensure the container is wide enough */
+  will-change: transform; /* Optimize for animation */
+}
+
+.move.animate {
+  animation: move 20s linear infinite; /* Animation applied when 'animate' class is added */
 }
 
 .move img {
@@ -31,39 +33,32 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1; /* Ensure the shadow is on top */
+  z-index: 1;
 }
 
 .right {
   height: 100%;
-  background: linear-gradient(
-    to left,
-    white,
-    transparent
-  ); /* Adjusted gradient direction */
+  background: linear-gradient(to left, white, transparent);
   width: 150px;
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 1; /* Ensure the shadow is on top */
+  z-index: 1;
 }
 
 @keyframes move {
   0% {
     transform: translateX(0);
   }
-
   100% {
-    transform: translateX(-50%); /* Adjust to match the width of the images */
+    transform: translateX(-50%);
   }
 }
 
 /* Media query for mobile view */
 @media (max-width: 768px) {
-  .move {
-    display: inline-block;
-    animation: move 7s linear infinite;
-    min-width: calc(200% + 40px); /* Ensure the container is wide enough */
+  .move.animate {
+    animation: move 7s linear infinite; /* Faster animation for mobile */
   }
   .left,
   .right {
