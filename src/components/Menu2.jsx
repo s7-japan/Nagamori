@@ -1,5 +1,5 @@
 import React from "react";
-import technic from "../assets/technic.png";
+import techniq from "../assets/techniq.svg";
 import menu2_1 from "../assets/menu2_1.png";
 import menu2_2 from "../assets/menu2_2.png";
 import menu2_3 from "../assets/menu2_3.png";
@@ -14,9 +14,9 @@ const Menu2 = () => {
     <div className="px-12 md:px-[16vw] flex flex-col items-center mt-12 md:mt-[8vw] relative">
       <div className="absolute top-0 bg-[#B6BFBC] left-0 h-[95%] w-[28%] opacity-[12%] hidden md:block"></div>
       <img
-        src={technic}
+        src={techniq}
         alt=""
-        className="h-[20vw] md:h-[5vw] absolute top-10 -rotate-[20deg] md:top-0 md:rotate-0"
+        className="h-[20vw] md:h-[5vw] absolute top-10 -rotate-[20deg] md:top-0 md:rotate-0 opacity-50 md:opacity-100"
       />
 
       <p className="text-center mb-24 md:mb-[2.2vw] text-[7vw] md:text-[2.8vw] mt-14 md:mt-[4.5vw] text-[#707070] font-[400]">

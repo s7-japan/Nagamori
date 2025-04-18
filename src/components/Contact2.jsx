@@ -41,7 +41,7 @@ const Contact2 = ({ formData, setFinalConfirmation }) => {
 
   return (
     <div>
-      <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 cambria">
+      <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 sikita">
         Contact
       </h1>
       <div className="w-15 h-[1.5px] bg-[#707070] relative left-1/2 -translate-x-1/2 mb-3"></div>

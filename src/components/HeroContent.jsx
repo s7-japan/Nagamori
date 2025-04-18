@@ -1,6 +1,6 @@
 import React from "react";
 import intersection from "../assets/Intersection.png";
-import concept from "../assets/concept.png";
+import concept from "../assets/concept.svg";
 import btn1 from "../assets/btn1.svg";
 
 const HeroContent = () => {
@@ -12,7 +12,7 @@ const HeroContent = () => {
           <img
             src={concept}
             alt=""
-            className="md:h-[9.5vw] md:-top-[1.8vw] md:-left-[1vw] absolute -top-[0vw] left-[15vw] h-[40vw]"
+            className="md:h-[9.5vw] md:-top-[1.8vw] md:-left-[1vw] absolute -top-[0vw] left-[15vw] h-[40vw] opacity-50 md:opacity-100"
           />
         </div>
         <p className="text-[7vw] md:text-[2.1vw] font-light mt-[15vw] md:mt-[7vw]">

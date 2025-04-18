@@ -9,7 +9,7 @@ const ImageSlider = () => {
   return (
     <>
       <div id="main">
-        <div className="moving mt-4 md:mt-0">
+        <div className="moving md:mt-0">
           <div className="left"></div>
           <div className="move">
             <img src={sliderone} alt="" className="h-25 md:h-[9vw]" />

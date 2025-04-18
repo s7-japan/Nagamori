@@ -6,12 +6,14 @@ import t4 from "../assets/t4.png";
 import t5 from "../assets/t5.png";
 import brow from "../assets/Brow.png";
 import Hairline from "../assets/Hairline1.png";
+import schedule1 from "../assets/schedule1.svg";
+import schedule2 from "../assets/schedule2.svg";
 
 const TreatmentCard = () => {
   return (
     <div>
       <div className="px-6 md:px-[16vw] mb-30 relative">
-        <div className="absolute top-0 bg-[#B6BFBC] left-0 h-[50%] w-[28%] opacity-[12%] hidden md:block -z-10"></div>
+        <div className="absolute top-0 bg-[#B6BFBC] left-0 h-[50%] w-[28%] opacity-[16%] hidden md:block -z-10"></div>
         <h1 className="text-center text-[7vw] md:text-[3.2vw] mb-1 sikita">
           Brow
         </h1>
@@ -83,7 +85,7 @@ const TreatmentCard = () => {
       </div>
 
       <div className="px-6 md:px-[16vw] mb-30 relative">
-        <div className="absolute top-0 bg-[#B6BFBC] right-0 h-[50%] w-[28%] opacity-[12%] hidden md:block -z-10"></div>
+        <div className="absolute top-0 bg-[#B6BFBC] right-0 h-[50%] w-[28%] opacity-[16%] hidden md:block -z-10"></div>
         <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 sikita">
           Lip
         </h1>
@@ -155,7 +157,7 @@ const TreatmentCard = () => {
       </div>
 
       <div className="px-6 md:px-[16vw] mb-30 relative">
-        <div className="absolute top-0 bg-[#B6BFBC] right-0 h-[43%] w-[28%] opacity-[12%] hidden md:block -z-10"></div>
+        <div className="absolute top-0 bg-[#B6BFBC] right-0 h-[43%] w-[28%] opacity-[16%] hidden md:block -z-10"></div>
         <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 sikita">
           Eyeline
         </h1>
@@ -287,7 +289,7 @@ const TreatmentCard = () => {
       </div>
 
       <div className="px-6 md:px-[16vw] mb-30 relative">
-        <div className="absolute top-0 bg-[#B6BFBC] left-0 h-[25%] w-[28%] opacity-[12%] hidden md:block -z-10"></div>
+        <div className="absolute top-0 bg-[#B6BFBC] left-0 h-[34%] w-[28%] opacity-[16%] hidden md:block -z-10"></div>
         <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 sikita">
           Hairline
         </h1>
@@ -372,8 +374,9 @@ const TreatmentCard = () => {
           </div>
         </div>
       </div>
-      <div className="px-6 md:px-[16vw] mb-30 relative">
-        <div className="absolute top-0 bg-[#B6BFBC] right-0 h-[43%] w-[28%] opacity-[12%] hidden md:block -z-10"></div>
+
+      <div className="px-6 md:px-[16vw] mb-30 relative z-20">
+        <div className="absolute top-[60%] bg-[#B6BFBC] left-0 h-[43%] w-[28%] opacity-[16%] hidden md:block -z-10"></div>
         <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 sikita">
           Other
         </h1>
@@ -396,7 +399,7 @@ const TreatmentCard = () => {
 
           <div className="w-full md:w-[80%] mx-auto border border-[#7070703a]">
             <div className="md:flex w-full">
-              <div className="md:py-[2vw] py-6 md:text-[1.2vw] md:text-left text-center border-b md:border-b-0 md:border-r border-[#7070703a] pl-5 md:w-[55%] bg-[#ffd2d239]">
+              <div className="md:py-[2vw] py-6 md:text-[1.2vw] md:text-left text-center border-b md:border-b-0 md:border-r border-[#7070703a] pl-5 md:w-[55%] bg-[#ffd2d239] z-20">
                 1回
               </div>
               <div className="md:py-[2vw] py-6 md:text-[1.2vw] md:text-left text-center  pl-5 md:w-[45%]">
@@ -433,12 +436,21 @@ const TreatmentCard = () => {
               </div>
             </div>
           </div>
-      </div>
+        </div>
         {/* <div className="flex justify-between items-center">
           <img src={brow} alt="" />
           <img src={Hairline} alt="" />
         </div> */}
-    </div>
+      </div>
+
+      <div className="flex gap-5 px-[13%]">
+        <div>
+          <img src={schedule1} alt="" />
+        </div>
+        <div>
+          <img src={schedule2} alt="" />
+        </div>
+      </div>
     </div>
   );
 };

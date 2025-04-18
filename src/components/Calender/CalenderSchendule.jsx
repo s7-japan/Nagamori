@@ -27,7 +27,7 @@ const CalenderSchendule = () => {
           <div className="grid grid-cols-1 grid-rows-2 mt-6">
             <div className="bg-[#787A98] flex justify-between px-5 items-center py-1 text-white font-bold text-lg sm:text-xl border-gray-600 border-[1px]">
               <BiSolidLeftArrow color="#A0A1BF" />
-              <div>2025 _1</div>
+              <div>2025.1</div>
               <BiSolidRightArrow color="#A0A1BF" />
             </div>
             <div className="grid grid-cols-7 grid-rows-1">

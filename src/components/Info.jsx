@@ -9,9 +9,12 @@ const Info = () => {
   return (
     <div className="px-6 md:px-[16vw] flex-row md:flex mt-14 md:mt-[10vw] md:h-[40vw]">
       <div className="md:hidden">
-        <p className="text-[#7070706e] text-[6vw] md:text-[1.5vw] sikita">
-          Makeup Artist
-        </p>
+        <div>
+          <div className="h-1 w-5 bg-black">sd</div>
+          <p className="text-[#7070706e] text-[6vw] md:text-[1.5vw] sikita">
+            Makeup Artist
+          </p>
+        </div>
         <div className="flex flex-col">
           <div className="flex justify-between md:gap-16 items-center">
             <h1 className="text-[12vw] md:text-[3.5vw] font-light">永森友美</h1>
@@ -36,9 +39,12 @@ const Info = () => {
       </div>
       <div className="w-full md:w-[55%] flex flex-col md:justify-between pl-0 md:pl-20">
         <div className="hidden md:block">
-          <p className="text-[#7070706e] text-[1.5vw] sikita md:mb-[1.3vw]">
-            Makeup Artist
-          </p>
+          <div className="relative">
+            <div className="h-[1px] w-6 bg-[#707070] opacity-[25%] absolute top-[1vw] -left-[3vw]"></div>
+            <p className="text-[#7070706e] text-[1.5vw] sikita md:mb-[1.3vw]">
+              Makeup Artist
+            </p>
+          </div>
           <div className="flex flex-col">
             <div className="flex gap-16 items-center">
               <h1 className="text-[3.3vw] font-light">永 森 友 美</h1>
@@ -77,20 +83,24 @@ const Info = () => {
           世界で開催されるアートメイクイベントにスピーカーや審査員として招待される。
         </p>
         <div className="flex justify-center md:justify-start">
-        <Link to='/contact'>
-          <button>
-          <img
-            src={btn4}
-            alt=""
-            className="mt-10 md:mt-0 w-[15vw] hidden md:block cursor-pointer"
-            />
-            </button>
-            </Link>
-            <Link to='/contact'></Link>
+          <Link to="/contact">
             <button>
-          <img src={btn4} alt="" className="mt-10 md:mt-0 w-full md:hidden cursor-pointer" />
+              <img
+                src={btn4}
+                alt=""
+                className="mt-10 md:mt-0 w-[15vw] hidden md:block cursor-pointer"
+              />
             </button>
-            <Link/>
+          </Link>
+          <Link to="/contact"></Link>
+          <button>
+            <img
+              src={btn4}
+              alt=""
+              className="mt-10 md:mt-0 w-full md:hidden cursor-pointer"
+            />
+          </button>
+          <Link />
         </div>
       </div>
     </div>

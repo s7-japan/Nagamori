@@ -47,7 +47,7 @@ export default function Navbar({ sidebar, setSidebar }) {
   return (
     <div
       className={`flex justify-between items-center border-b border-[#70707081] md:border-0 py-5 md:py-0 md:pb-5 lg:items-end px-5 fixed top-0 left-0 w-full z-20 ${
-        isScrolled ? "bg-white" : "lg:bg-transparent bg-white"
+        isScrolled ? "bg-white" : "lg:bg-white bg-white"
       }`}
     >
       <div>

@@ -1,6 +1,5 @@
 import React from "react";
-import hero from "../assets/hero_removed.png";
-import logo from "../assets/logo.png";
+import newhero from "../assets/new_hero.svg";
 import CalendarSchedule from "../components/Calender/CalenderSchendule";
 
 const Schedule = () => {
@@ -14,13 +13,12 @@ const Schedule = () => {
           出勤予定表（予約ページ）
         </p>
       </div>
-      <div className="w-full h-[75vw] md:h-[25vw] bg-[#EFEFEF] md:flex md:px-[13vw]">
-        <div className="w-full md:w-1/2 h-full">
-          <img src={hero} alt="" className="h-full w-full object-cover" />
-        </div>
-        <div className="w-1/2 h-full items-center hidden md:flex">
-          <img src={logo} alt="" className="h-25" />
-        </div>
+      <div className="w-full h-[55vw] md:h-[25vw] bg-[#EFEFEF] flex ">
+        <img
+          src={newhero}
+          alt=""
+          className="w-full object-cover object-right md:object-center"
+        />
       </div>
       <div className="px-6 text-[3vw] md:leading-[2.5vw] md:px-[13vw] mt-8 md:text-[1.4vw] mb-20 text-[#707070] font-[300]">
         当院には様々な最先端医療がございますので、まずは施術(値段)一覧よりご希望のメニューご確認いただき、カウンセリングにお越しください。美容治療のスペシャリスト達が、患者様の「究極の美」を追求するため、お悩みに合わせたプランをご提案させていただきます。

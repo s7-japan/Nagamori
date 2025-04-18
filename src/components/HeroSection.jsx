@@ -1,19 +1,24 @@
-import logo from "../assets/newLogo.svg";
-import heroimage from "../assets/hero.png";
+import bg from "../assets/bg.svg";
+import bgmobile from "../assets/mobilebg.svg";
+import whitelogo from "../assets/whitelogo.svg";
+import makeupLine from "../assets/makeupLine.svg";
 
 export default function HeroSection() {
   return (
-    <div className="bg-[#E6E6E6] h-[75vw] md:h-[38vw] w-full flex pt-24 md:pt-10 md:mb-0">
-      <div className="w-1/2 h-full">
-        <img src={heroimage} alt="" className="h-full w-full object-cover" />
-      </div>
-      <div className="w-1/2 h-full flex flex-col items-center justify-center">
-        <div>
-          <img src={logo} alt="" className="md:h-[9vw] h-[11vw]" />
-          <p className="md:text-[1.2vw] text-[3vw] pl-[1vw] text-[#707070]">
-            永森 友美 / Beauty Angel Master
-          </p>
-        </div>
+    <div className="md:h-[41vw] w-full pt-23 md:mb-0">
+      <img src={bg} alt="" className="w-full hidden md:block" />
+      <div className="md:hidden relative">
+        <img
+          src={whitelogo}
+          alt=""
+          className="absolute top-5 left-1/2 transform -translate-x-1/2"
+        />
+        <img
+          src={makeupLine}
+          alt=""
+          className="absolute top-28 left-1/2 transform -translate-x-1/2"
+        />
+        <img src={bgmobile} alt="" className="w-full" />
       </div>
     </div>
   );

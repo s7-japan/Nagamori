@@ -1,6 +1,6 @@
 import React from "react";
 import hero from "../assets/hero_removed.png";
-import logo from "../assets/newLogo.svg";
+import herowhite from "../assets/herowhite.svg";
 import TreatmentCard from "../components/TreatmentCard";
 
 const Treatment = () => {
@@ -10,12 +10,12 @@ const Treatment = () => {
         <p className="text-[3vw] md:text-[1.3vw] mb-[1vw] text-[#00000063] md:text-black">ホーム 施術メニュー（料金表）</p>
         <p className="text-[7vw] text-center px-20 md:px-0 md:text-left md:text-[3.3vw] mb-5 font-[400]">施術メニュー（料金表）</p>
       </div>
-      <div className="w-full h-[75vw] md:h-[25vw] bg-[#EFEFEF] md:flex md:px-[13vw]">
-        <div className="w-full md:w-1/2 h-full">
+      <div className="w-full h-[55vw] md:h-[25vw] bg-[#E6E6E6] flex md:px-[13vw] px-6">
+        <div className="w-1/2 h-full">
           <img src={hero} alt="" className="h-full w-full object-cover" />
         </div>
-        <div className="w-1/2 h-full items-center hidden md:flex">
-          <img src={logo} alt="" className="h-25" />
+        <div className="w-1/2 h-full md:items-center flex items-start">
+          <img src={herowhite} alt="" className="h-25" />
         </div>
       </div>
       <div className="px-6 text-[3vw] md:leading-[2.5vw] md:px-[13vw] mt-8 md:text-[1.4vw] mb-20 text-[#707070] font-[300]">
