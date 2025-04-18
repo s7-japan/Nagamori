@@ -5,7 +5,7 @@ import technique from "../assets/technique.svg";
 
 const HeroContent2 = () => {
   return (
-    <div className="px-6 md:px-[16vw] md:flex-row flex flex-col-reverse md:mt-32 mt-[9vw]">
+    <div className="px-6 md:px-[16vw] md:flex-row flex flex-col-reverse md:mt-32 mt-[9vw] relative">
       <div className="w-full md:w-[30%] mt-8 md:mt-0">
         <div className="flex flex-col gap-5">
           <div className="md:w-[18vw] md:h-[18vw] w-full h-[90vw]">

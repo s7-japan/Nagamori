@@ -5,7 +5,7 @@ import CalendarSchedule from "../components/Calender/CalenderSchendule";
 const Schedule = () => {
   return (
     <div>
-      <div className="pt-28 md:pt-30 px-6 md:px-[16vw]">
+      <div className="pt-28 md:pt-[10vw] px-6 md:px-[16vw]">
         <p className="text-[3vw] md:text-[1.3vw] mb-[1vw] text-[#00000063] md:text-black">
           ホーム 出勤予定表（予約ページ）
         </p>
