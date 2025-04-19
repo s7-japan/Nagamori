@@ -1,5 +1,5 @@
 import React from "react";
-import techniq from "../assets/techniq.svg";
+import techniq from "../assets/techniq.png";
 import menu2_1 from "../assets/menu2_1.png";
 import menu2_2 from "../assets/menu2_2.png";
 import menu2_3 from "../assets/menu2_3.png";

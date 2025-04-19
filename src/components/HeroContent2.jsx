@@ -1,7 +1,7 @@
 import React from "react";
 import vid1 from "../assets/vid1.mov";
 import vid2 from "../assets/vid2.mov";
-import technique from "../assets/technique.svg";
+import technique from "../assets/technique.png";
 
 const HeroContent2 = () => {
   return (

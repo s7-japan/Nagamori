@@ -1,6 +1,6 @@
 import React from "react";
 import intersection from "../assets/Intersection.png";
-import concept from "../assets/concept.svg";
+import concept from "../assets/concept.png";
 import btn1 from "../assets/btn1.svg";
 
 const HeroContent = () => {
