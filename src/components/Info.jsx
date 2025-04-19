@@ -10,7 +10,6 @@ const Info = () => {
     <div className="px-6 md:px-[16vw] flex-row md:flex mt-14 md:mt-[10vw] md:h-[40vw]">
       <div className="md:hidden">
         <div>
-          <div className="h-1 w-5 bg-black">sd</div>
           <p className="text-[#7070706e] text-[6vw] md:text-[1.5vw] sikita">
             Makeup Artist
           </p>
