@@ -21,7 +21,7 @@ const Footer = () => {
       <p className="mt-[83px] md:mt-25 lg:mt-26 text-center md:text-start text-[2.8vw] md:text-[1vw] font-light">
         ご予約・お問い合わせは、LINEより受け付けております。ご不明点等ございましたら、お気軽にご連絡くださいませ。
       </p>
-      <p className="text-center mt-6 mb-5 md:mt-[6vw] text-[10px] md:text-[0.95vw] tracking-[2px]">
+      <p className="text-center mt-6 mb-5 md:mt-[6vw] text-[10px] md:text-[0.95vw] tracking-[0.099em]">
         Copyright © Nagamori art makeup All Rights Reserved.
       </p>
     </div>
