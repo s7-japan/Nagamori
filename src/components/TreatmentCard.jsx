@@ -373,7 +373,7 @@ const TreatmentCard = () => {
         </div>
       </div>
 
-      <div className="px-6 md:px-[16vw] mb-30 relative z-20">
+      <div className="px-6 md:px-[16vw] mb-30 relative">
         <div className="absolute top-[60%] bg-[#B6BFBC] left-0 h-[43%] w-[28%] opacity-[16%] hidden md:block -z-10"></div>
         <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 sikita">
           Other

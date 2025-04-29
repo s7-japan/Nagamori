@@ -1,5 +1,5 @@
 import React from "react";
-import btn5 from "../assets/btn5.png";
+import btn5 from "../assets/btn5.svg";
 
 const Contact1 = ({ formData, setFormData, onSubmit }) => {
   const handleInputChange = (e) => {
@@ -41,9 +41,9 @@ const Contact1 = ({ formData, setFormData, onSubmit }) => {
       <h1 className="text-center text-[8vw] md:text-[3.3vw] mb-1 sikita">
         Contact
       </h1>
-      <div className="w-15 h-[1.5px] bg-[#707070] relative left-1/2 -translate-x-1/2 mb-3"></div>
+      <div className="w-[152px] h-[1.5px] bg-[#707070] relative left-1/2 -translate-x-1/2 mb-3"></div>
       <p className="text-center mb-15 text-[4vw] md:text-[1.3vw] font-light">
-        お問い合わせ内容
+        お問合せ
       </p>
 
       <div className="w-full flex justify-center mb-15">
@@ -76,9 +76,10 @@ const Contact1 = ({ formData, setFormData, onSubmit }) => {
       </div>
 
       <p className="text-left md:text-center leading-9 md:leading-12 font-light">
-        下記の入力フォームに必須事項をご入力の上
+        下記の入力フォームに必須事項をご入力の上、
         <br />
-        「送信」ボタンを押してください <br />
+        「入力内容を確認する」ボタンを押してください。
+        <br />
         ※WEBでのご予約は受け付けておりません。
       </p>
       <form
@@ -288,7 +289,7 @@ const Contact1 = ({ formData, setFormData, onSubmit }) => {
 
         <div className="w-full flex justify-center mt-20">
           <button type="submit">
-            <img src={btn5} alt="" className="h-11" />
+            <img src={btn5} alt="" />
           </button>
         </div>
       </form>

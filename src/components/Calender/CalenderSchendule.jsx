@@ -10,28 +10,28 @@ const CalenderSchendule = () => {
           Working Schedule
         </h1>
         <div className="w-25 h-[1.5px] bg-[#707070] relative mb-3"></div>
-        <p className="text-center mb-12 md:mb-1 text-[4vw] md:text-[1.3vw] font-light">
-        出勤表
+        <p className="text-center text-[clamp(1.3125rem,2vw,1.5625rem)] tracking-[0.076em]">
+          出勤表
         </p>
       </div>
 
       {/* Content Section */}
-      <div className="mb-6 text-sm sm:text-lg">
-      詳しくは、以下の在籍表を確認して公式LINEアカウントから予約から確認してください。
-      </div>
-
+      <p className="mb-6 text-sm text-center tracking-[0.076em] leading-[20px]">
+        詳しくは、以下の在籍表を確認して公式LINEアカウントから予約から確認してください。
+      </p>
+      <p className="text-xs tracking-[0.076em]">横スクロールで確認できます。</p>
       {/* Calendar Section with Scroll */}
-      <div className="w-full overflow-x-auto">
+      <div className="w-full overflow-x-auto md:mt-4 mt-2">
         <div className="min-w-[700px]">
           {/* Month Header */}
-          <div className="grid grid-cols-1 grid-rows-2 mt-6">
+          <div className="grid grid-cols-1 grid-rows-2">
             <div className="bg-[#787A98] flex justify-between px-5 items-center py-1 text-white font-bold text-lg sm:text-xl border-gray-600 border-[1px]">
               <BiSolidLeftArrow color="#A0A1BF" />
               <div>2025.1</div>
               <BiSolidRightArrow color="#A0A1BF" />
             </div>
             <div className="grid grid-cols-7 grid-rows-1">
-              {['日', '月', '火', '水', '木', '金', '土'].map((day) => (
+              {["日", "月", "火", "水", "木", "金", "土"].map((day) => (
                 <div
                   key={day}
                   className="border-[1px] border-gray-600 flex items-center justify-center h-12 sm:h-14 text-sm sm:text-base"
@@ -43,7 +43,7 @@ const CalenderSchendule = () => {
           </div>
 
           {/* Calendar Grid */}
-          <div className="grid grid-cols-1 grid-rows-7">
+          <div className="grid grid-cols-1 grid-rows-5">
             {/* Week 1 */}
             <div className="grid grid-cols-7">
               <div className="border-[1px] border-gray-600 bg-gray-100 h-16 sm:h-20">
@@ -262,11 +262,14 @@ const CalenderSchendule = () => {
       </div>
 
       {/* Legend Section */}
-      <div className="flex flex-col gap-4 px-2">
+      <div className="flex flex-col mt-9 gap-4 px-2">
         {[
           { color: "#DDB27F", text: "HAAB東京 ( 原宿）" },
           { color: "#7CB6DC", text: "アマソラクリニック（渋谷)" },
-          { color: "#DB7D9E", text: "札幌ル・トロワビューティクリニックVogue（札幌）" },
+          {
+            color: "#DB7D9E",
+            text: "札幌ル・トロワビューティクリニックVogue（札幌）",
+          },
           { color: "#837EDA", text: "SHIBAURA B.CLINIC（芝浦）" },
           { color: "#A7AD6E", text: " GRACY TOKYO CLINIC（表参道）" },
           { color: "#FEE3E3", text: "休診日" },
