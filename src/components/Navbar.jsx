@@ -46,7 +46,7 @@ export default function Navbar({ sidebar, setSidebar }) {
 
   return (
     <div
-      className={`flex justify-between items-center border-b border-[#70707081] md:border-0 py-5 md:py-0 md:pb-5 lg:items-end px-5 fixed top-0 left-0 w-full z-20 ${
+      className={`flex justify-between items-center py-5 md:py-0 md:pb-5 lg:items-end px-5 fixed top-0 left-0 w-full z-20 ${
         isScrolled ? "bg-white" : "lg:bg-white bg-white"
       }`}
     >
@@ -143,15 +143,18 @@ export default function Navbar({ sidebar, setSidebar }) {
               onClick={() => {
                 setSidebar(!sidebar);
               }}
-              className="text-[25px]"
             />
           ) : (
-            <CiMenuBurger
+            <div
               onClick={() => {
                 setSidebar(!sidebar);
               }}
-              className="text-[25px]"
-            />
+              className="flex flex-col gap-2"
+            >
+              <div className="w-[22px] h-[1px] bg-[#707070]"></div>
+              <div className="w-[22px] h-[1px] bg-[#707070]"></div>
+              <div className="w-[22px] h-[1px] bg-[#707070]"></div>
+            </div>
           )}
         </div>
       </div>
