@@ -22,7 +22,7 @@ const Portfolio = () => {
       </h1>
       <div className="absolute top-0 bg-[#B6BFBC] right-0 h-[95%] w-[28%] opacity-[12%] hidden md:block -z-10"></div>
       <div className="w-25 h-[1.5px] bg-[#707070] mb-3"></div>
-      <p className="text-center mb-14 md:mb-12 text-[4vw] md:text-[1.1vw] text-[#707070] font-[600]">
+      <p className="text-center tracking-[0.076em] mb-14 md:mb-12 text-black text-[clamp(21px,2vw,25px)] leading[30px]">
         施術例
       </p>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
@@ -39,11 +39,10 @@ const Portfolio = () => {
         <img src={p11} alt="" />
         <img src={p12} alt="" />
       </div>
-      <Link to='https://www.instagram.com/tomomi_nagamori_art?igsh=bmtpYzRvZXQ1bXE1'>
-      <button>
-
-      <img src={btn6} alt="" className="mt-10 w-[15vw] cursor-pointer" />
-      </button>
+      <Link to="https://www.instagram.com/tomomi_nagamori_art?igsh=bmtpYzRvZXQ1bXE1">
+        <button>
+          <img src={btn6} alt="" className="mt-10 cursor-pointer" />
+        </button>
       </Link>
     </div>
   );

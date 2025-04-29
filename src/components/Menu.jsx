@@ -5,7 +5,7 @@ import three from "../assets/menu3.png";
 import four from "../assets/menu4.png";
 import btn2 from "../assets/btn2.svg";
 import btn3 from "../assets/btn3.svg";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
@@ -14,8 +14,8 @@ const Menu = () => {
       <h1 className="text-center text-[15vw] md:text-[4vw] mb-1 sikita">
         Menu
       </h1>
-      <div className="w-25 h-[1.5px] bg-[#707070] mb-3"></div>
-      <p className="text-center mb-14 md:mb-12 text-[4vw] md:text-[1.1vw] text-[#707070] font-[600]">
+      <div className="w-27 lg:w-31 h-[1px] bg-[#707070] mb-3"></div>
+      <p className="text-center tracking-[0.076em] mb-14 md:mb-12 text-black text-[clamp(21px,2vw,25px)] leading[30px]">
         施術メニュー
       </p>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-x-3 gap-y-8 md:gap-8">
@@ -65,22 +65,21 @@ const Menu = () => {
         </div>
       </div>
       <img
-      onClick={()=>{
-        window.location.replace("/treatment")
-      }}
+        onClick={() => {
+          window.location.replace("/treatment");
+        }}
         src={btn2}
         alt=""
         className="mt-[3vw] hidden md:block md:w-[15vw] cursor-pointer"
       />
-      <Link to='https://nagamori.vercel.app/treatment'>
-      <button>
-
-      <img
-      src={btn3}
-      alt=""
-      className="mt-[10vw] w-full md:hidden cursor-pointer"
-      />
-      </button>
+      <Link to="https://nagamori.vercel.app/treatment">
+        <button>
+          <img
+            src={btn3}
+            alt=""
+            className="mt-[10vw] w-full md:hidden cursor-pointer"
+          />
+        </button>
       </Link>
       <p className="mt-7 md:mt-[3vw] text-[3.3vw] md:text-[1.1vw]">
         初めての方も、お気軽にお問い合わせください。
