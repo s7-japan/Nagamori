@@ -11,7 +11,7 @@ export default function HeroSection() {
         <img
           src={whitelogo}
           alt=""
-          className="absolute w-[300px] top-5 left-1/2 transform -translate-x-1/2"
+          className="absolute w-[300px] top-7 left-1/2 transform -translate-x-1/2"
         />
         <img
           src={makeupLine}
