@@ -8,7 +8,7 @@ const HeroContent = () => {
     <>
       <div className="relative md:mt-20 lg:mt-30 xl:mt-44">
         <div className="absolute top-0 left-0 hidden h-[740px] bg-[#B6BFBC] opacity-[12%] xl:block xl:w-[547px]"></div>
-        <div className="relative container mx-auto flex-row px-6 md:flex md:items-start md:gap-6 lg:gap-10 xl:max-w-7xl xl:gap-22">
+        <div className="relative container mx-auto flex flex-col px-6 md:flex-row md:items-start md:gap-6 md:px-0 lg:gap-10 xl:max-w-7xl xl:gap-22">
           <div className="flex w-full flex-col md:w-1/2">
             <div className="relative flex items-center justify-center py-10 xl:flex-col xl:items-start xl:py-0">
               <img
