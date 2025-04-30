@@ -68,9 +68,14 @@ const Recommendation = () => {
               <h1 className="text-[12vw] md:text-[2.1vw] mb-3 md:mb-2">
                 田中 優太
               </h1>
-              <p className="text-[6.5vw] md:text-[1.2vw] sikita italic mb-3 min-h-[45px]">
-                HAAB DREAM BEAUTY CLINIC 東京本院 院長
-              </p>
+              <div className="flex flex-col">
+                <p className="text-[clamp(20px,4vw,24px)] sikita italic">
+                  HAAB DREAM BEAUTY CLINIC
+                </p>
+                <p className="text-[clamp(20px,4vw,24px)] sikita italic mb-3">
+                  東京本院 院長
+                </p>
+              </div>
               <p className="ttext-[3.9vw] md:text-[1vw] leading-[6vw] md:leading-[1.5vw] text-[#707070]">
                 永森友美氏は、国内外で数々の実績を持つアートメイクのスペシャリストです。HAABではアートメイク部門の立ち上げから、現在はHAABアートメイク統括として活躍中。お客様からの評判も大変良く、著名人も数多く担当しています。
               </p>
@@ -95,7 +100,8 @@ const Recommendation = () => {
                 看護師として長年の臨床経験を積んだ後にアートメイクアーティストに転身。その後真面目に学会発表をされたりヨーロッパのアートメイクコンテストで優勝するなど、安心でかつデザインのセンスも良い方なので自信を持ってお勧めできるアートメイク看護師です。
               </p>
               <p className="text-[3.9vw] mt-4 md:text-[1vw] leading-[6vw] md:leading-[1.5vw] text-[#707070]">
-                日本初の「Beauty Angel Master」資格取得者であ
+                日本初の「Beauty Angel
+                Master」資格取得者であり、真の美しさを追求し続けています。
               </p>
             </div>
           </div>

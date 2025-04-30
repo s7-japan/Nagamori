@@ -182,10 +182,10 @@ const TreatmentCard = () => {
               </div>
               <div className="flex flex-col py-5 justify-center text-nowrap">
                 <div className="md:text-[1.2vw] md:text-left text-center pl-5 md:w-[45%]">
-                  （税込み）110,000 円
+                  （税込み）66,000 円
                 </div>
                 <div className="md:text-[1.0vw] md:text-left text-center text-red-500 pl-5 md:w-[45%]">
-                  （モニター価格税込み）88,000 円
+                  （モニター価格税込み）52,800 円
                 </div>
               </div>
             </div>
@@ -196,10 +196,10 @@ const TreatmentCard = () => {
 
               <div className="flex flex-col py-5 justify-center text-nowrap">
                 <div className="md:text-[1.2vw] md:text-left text-center pl-5 md:w-[45%]">
-                  （税込み）880,000 円
+                  （税込み）33,000 円
                 </div>
                 <div className="md:text-[1.0vw] md:text-left text-center text-red-500 pl-5 md:w-[45%]">
-                  （モニター価格税込み）70,400 円
+                  （モニター価格税込み）26,400 円
                 </div>
               </div>
             </div>
@@ -239,10 +239,10 @@ const TreatmentCard = () => {
               </div>
               <div className="flex flex-col py-5 justify-center text-nowrap">
                 <div className="md:text-[1.2vw] md:text-left text-center pl-5 md:w-[45%]">
-                  （税込み）110,000 円
+                  （税込み）88,000 円
                 </div>
                 <div className="md:text-[1.0vw] md:text-left text-center text-red-500 pl-5 md:w-[45%]">
-                  （モニター価格税込み）88,000 円
+                  （モニター価格税込み70,400 円
                 </div>
               </div>
             </div>
@@ -253,10 +253,10 @@ const TreatmentCard = () => {
 
               <div className="flex flex-col py-5 justify-center text-nowrap">
                 <div className="md:text-[1.2vw] md:text-left text-center pl-5 md:w-[45%]">
-                  （税込み）880,000 円
+                  （税込み）33,000 円
                 </div>
                 <div className="md:text-[1.0vw] md:text-left text-center text-red-500 pl-5 md:w-[45%]">
-                  （モニター価格税込み）70,400 円
+                  （モニター価格税込み）26,400 円
                 </div>
               </div>
             </div>
@@ -268,7 +268,7 @@ const TreatmentCard = () => {
                 3回目 1年以降
               </div>
               <div className="md:py-[2vw] py-6 md:text-[1.2vw] md:text-left text-center  pl-5 md:w-[45%]">
-                （税込み）55,000 円
+                （税込み）44,000 円
               </div>
             </div>
           </div>
@@ -314,10 +314,10 @@ const TreatmentCard = () => {
               </div>
               <div className="flex flex-col py-5 justify-center text-nowrap">
                 <div className="md:text-[1.2vw] md:text-left text-center pl-5 md:w-[45%]">
-                  （税込み）110,000 円
+                  （税込み）88,000 円
                 </div>
                 <div className="md:text-[1.0vw] md:text-left text-center text-red-500 pl-5 md:w-[45%]">
-                  （モニター価格税込み）88,000 円
+                  （モニター価格税込み）70,400 円
                 </div>
               </div>
             </div>
@@ -328,10 +328,10 @@ const TreatmentCard = () => {
 
               <div className="flex flex-col py-5 justify-center text-nowrap">
                 <div className="md:text-[1.2vw] md:text-left text-center pl-5 md:w-[45%]">
-                  （税込み）880,000 円
+                  （税込み）66,000 円
                 </div>
                 <div className="md:text-[1.0vw] md:text-left text-center text-red-500 pl-5 md:w-[45%]">
-                  （モニター価格税込み）70,400 円
+                  （モニター価格税込み）52,800 円
                 </div>
               </div>
             </div>
@@ -340,10 +340,10 @@ const TreatmentCard = () => {
           <div className="w-full md:w-[80%] mx-auto mt-5 border border-[#7070703a]">
             <div className="md:flex w-full">
               <div className="md:py-[2vw] py-6 md:text-[1.2vw] md:text-left text-center border-b md:border-b-0 md:border-r border-[#7070703a]  pl-5 md:w-[55%] bg-[#ffd2d239]">
-                3回目 1年以降
+                3回目 1年以内
               </div>
               <div className="md:py-[2vw] py-6 md:text-[1.2vw] md:text-left text-center  pl-5 md:w-[45%]">
-                （税込み）55,000 円
+                （税込み）44,000 円
               </div>
             </div>
           </div>
@@ -363,7 +363,7 @@ const TreatmentCard = () => {
           <div className="w-full md:w-[80%] mx-auto  border border-[#7070703a]">
             <div className="md:flex w-full">
               <div className="md:py-[2vw] py-6 md:text-[1.2vw] md:text-left text-center border-b md:border-b-0 md:border-r border-[#7070703a]  pl-5 md:w-[55%] bg-[#ffd2d239]">
-                1回（頭皮の毛根を書く技術）{" "}
+                1回目 （頭皮の毛根を書く技術）
               </div>
               <div className="md:py-[2vw] py-6 md:text-[1.2vw] md:text-left text-center  pl-5 md:w-[45%]">
                 （税込み）55,000 円
@@ -406,7 +406,7 @@ const TreatmentCard = () => {
             </div>
           </div>
           <p className="w-full md:w-[80%] mx-auto md:pb-2 pb-4.5 pt-10 md:text-start text-center text-[4.2vw] md:text-[1.3vw]">
-            眉・リップ Rmove
+            眉・リップ Rmove (専門薬液を用いて過去のアートを薄くする技法）
           </p>
           <div className="w-full md:w-[80%] mx-auto  border border-[#7070703a]">
             <div className="md:flex w-full">
