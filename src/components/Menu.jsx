@@ -6,15 +6,14 @@ import four from "../assets/menu4.png";
 import btn2 from "../assets/btn2.svg";
 import btn3 from "../assets/btn3.svg";
 import { Link } from "react-router-dom";
+import SectionHeader from "./SectionHeader";
 
 const Menu = () => {
   return (
     <div className="relative md:mt-20 lg:mt-30 xl:mt-44">
       <div className="absolute top-0 right-0 hidden h-[950px] bg-[#B6BFBC] opacity-[12%] xl:block xl:w-[547px]"></div>
       <div className="large-con relative mt-24 flex flex-col items-center">
-        <h1 className="heading-1 sikita">Menu</h1>
-        <div className="h-underline"></div>
-        <p className="subheading-1">施術メニュー</p>
+        <SectionHeader heading={"Menu"} subheading={"施術メニュー"} />
         <div className="grid grid-cols-2 gap-x-3 gap-y-8 md:grid-cols-4 md:gap-8">
           <div>
             <div className="mb-1">

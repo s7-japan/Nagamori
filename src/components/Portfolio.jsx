@@ -13,13 +13,12 @@ import p11 from "../assets/p11.png";
 import p12 from "../assets/p12.png";
 import btn6 from "../assets/btn6.svg";
 import { Link } from "react-router-dom";
+import SectionHeader from "./SectionHeader";
 
 const Portfolio = () => {
   return (
     <div className="large-con relative mt-20 flex flex-col items-center md:mt-22 lg:mt-24 xl:mt-27">
-      <h1 className="heading-1">Portfolio</h1>
-      <div className="h-underline"></div>
-      <p className="subheading-1">施術例</p>
+      <SectionHeader heading={"Portfolio"} subheading={"施術例"} />
       <div className="mt-2 grid grid-cols-2 gap-4.5 md:mt-3 md:grid-cols-3 md:gap-6 lg:mt-4 lg:grid-cols-4 lg:gap-7 xl:mt-5 xl:gap-9">
         <img src={p1} alt="" />
         <img src={p2} alt="" />
