@@ -13,7 +13,7 @@ import Menu2 from "../components/Menu2";
 
 const Home = () => {
   return (
-    <div className="">
+    <div>
       <div className="hidden md:block">
         <AnimatedLoader />
       </div>
