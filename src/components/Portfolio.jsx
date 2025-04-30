@@ -16,16 +16,11 @@ import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
-    <div className="px-6 md:px-[16vw] flex flex-col items-center mt-15 md:mt-[8vw] relative">
-      <h1 className="text-center text-[15vw] md:text-[4vw] mb-1 sikita">
-        Portfolio
-      </h1>
-      <div className="absolute top-0 bg-[#B6BFBC] right-0 h-[95%] w-[28%] opacity-[12%] hidden md:block -z-10"></div>
-      <div className="w-25 h-[1.5px] bg-[#707070] mb-3"></div>
-      <p className="text-center tracking-[0.076em] mb-14 md:mb-12 text-black text-[clamp(21px,2vw,25px)] leading[30px]">
-        施術例
-      </p>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+    <div className="large-con relative mt-20 flex flex-col items-center md:mt-22 lg:mt-24 xl:mt-27">
+      <h1 className="heading-1">Portfolio</h1>
+      <div className="h-underline"></div>
+      <p className="subheading-1">施術例</p>
+      <div className="mt-2 grid grid-cols-2 gap-4.5 md:mt-3 md:grid-cols-3 md:gap-6 lg:mt-4 lg:grid-cols-4 lg:gap-7 xl:mt-5 xl:gap-9">
         <img src={p1} alt="" />
         <img src={p2} alt="" />
         <img src={p3} alt="" />
@@ -41,7 +36,11 @@ const Portfolio = () => {
       </div>
       <Link to="https://www.instagram.com/tomomi_nagamori_art?igsh=bmtpYzRvZXQ1bXE1">
         <button>
-          <img src={btn6} alt="" className="mt-10 cursor-pointer" />
+          <img
+            src={btn6}
+            alt=""
+            className="mt-12 w-full cursor-pointer md:mt-20 lg:mt-25 xl:mt-30"
+          />
         </button>
       </Link>
     </div>
