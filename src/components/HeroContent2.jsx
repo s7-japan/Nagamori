@@ -40,7 +40,7 @@ const HeroContent2 = () => {
             <p className="self-start text-[28px] tracking-[0.055em] text-[#606060] lg:text-[35px] xl:-mt-5 xl:text-[45px] xl:font-light xl:text-black">
               永森独自の技法で
             </p>
-            <p className="self-end text-[28px] tracking-[0.055em] text-[#606060] lg:text-[35px] xl:-mt-5 xl:text-[45px] xl:font-light xl:text-black">
+            <p className="self-end text-[28px] tracking-[0.055em] text-[#606060] lg:text-[35px] xl:text-[45px] xl:font-light xl:text-black">
               リアルな毛並みを再現
             </p>
           </div>
