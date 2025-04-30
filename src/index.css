@@ -21,3 +21,7 @@
 .sikita {
   font-family: "Sikita";
 }
+
+.large-con {
+  @apply container mx-auto px-6 md:px-0 xl:max-w-7xl;
+}

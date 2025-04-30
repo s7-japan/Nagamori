@@ -7,7 +7,7 @@ const HeroContent2 = () => {
   return (
     <div className="relative md:mt-20 lg:mt-30 xl:mt-44">
       <div className="absolute top-0 right-0 hidden h-[740px] bg-[#B6BFBC] opacity-[12%] xl:block xl:w-[547px]"></div>
-      <div className="relative container mx-auto flex flex-col-reverse px-6 md:flex-row md:items-start md:gap-6 md:px-0 lg:gap-10 xl:max-w-7xl xl:gap-22">
+      <div className="large-con relative flex flex-col-reverse md:flex-row md:items-start md:gap-6 lg:gap-10 xl:gap-22">
         <div className="mt-14 flex w-full flex-col gap-5 md:mt-0 md:max-w-[340px] lg:max-w-[390px]">
           <div className="aspect-square w-full overflow-hidden">
             <video
