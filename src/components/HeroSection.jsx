@@ -1,23 +1,19 @@
 import bg from "../assets/bg.svg";
 import bgmobile from "../assets/mobilebg.svg";
-import whitelogo from "../assets/whitelogo.svg";
+import whitelogo from "../assets/whitelogo.png";
 import makeupLine from "../assets/makeupLine.svg";
 
 export default function HeroSection() {
   return (
-    <div className="md:h-[41vw] w-full pt-23 md:mb-0">
-      <img src={bg} alt="" className="w-full hidden md:block" />
-      <div className="md:hidden relative">
-        <img
-          src={whitelogo}
-          alt=""
-          className="absolute w-[300px] top-7 left-1/2 transform -translate-x-1/2"
-        />
-        <img
-          src={makeupLine}
-          alt=""
-          className="absolute top-28 left-1/2 transform -translate-x-1/2"
-        />
+    <div className="">
+      <img src={bg} alt="" className="hidden w-full md:block" />
+      <div className="relative md:hidden">
+        <div className="absolute top-7 w-full text-center">
+          <img src={whitelogo} alt="" className="mx-auto w-[300px]" />
+          <p className="sikita mt-8 w-full text-center text-sm text-white italic">
+            Makeup Artist / Nagamori Tomomi
+          </p>
+        </div>
         <img src={bgmobile} alt="" className="w-full" />
       </div>
     </div>

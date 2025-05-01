@@ -12,8 +12,8 @@ const App = () => {
   const [sidebar, setSidebar] = useState(false);
   return (
     <>
-      <Navbar sidebar={sidebar} setSidebar={setSidebar}/>
-      <MobileNav sidebar={sidebar} setSidebar={setSidebar}/>
+      <Navbar sidebar={sidebar} setSidebar={setSidebar} />
+      <MobileNav sidebar={sidebar} setSidebar={setSidebar} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/treatment" element={<Treatment />} />
