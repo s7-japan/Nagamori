@@ -37,7 +37,7 @@ const Menu = () => {
             <p className="s-card-heading">リップアートメイク</p>
             <p className="s-card-subheading">￥ 100,000~</p>
           </div>
-          <div className="z-10">
+          <div>
             <div className="mb-1">
               <img src={four} alt="" />
             </div>
