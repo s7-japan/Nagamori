@@ -2,11 +2,12 @@ import React from "react";
 import vid1 from "../assets/vid1.mov";
 import vid2 from "../assets/vid2.mov";
 import technique from "../assets/technique.png";
+import SideShape from "./SideShape";
 
 const HeroContent2 = () => {
   return (
     <div className="relative md:mt-20 lg:mt-30 xl:mt-44">
-      <div className="absolute top-0 right-0 hidden h-[740px] bg-[#B6BFBC] opacity-[12%] xl:block xl:w-[547px]"></div>
+      <SideShape height={"757px"} right={"0"} />
       <div className="large-con relative flex flex-col-reverse md:flex-row md:items-start md:gap-6 lg:gap-10 xl:gap-22">
         <div className="mt-14 flex w-full flex-col gap-5 md:mt-0 md:max-w-[340px] lg:max-w-[390px]">
           <div className="aspect-square w-full overflow-hidden">

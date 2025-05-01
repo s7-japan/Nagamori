@@ -13,12 +13,13 @@ import p11 from "../assets/p11.png";
 import p12 from "../assets/p12.png";
 import btn6 from "../assets/btn6.svg";
 import SectionHeader from "./SectionHeader";
+import SideShape from "./SideShape";
 
 const Portfolio = () => {
   return (
     <div className="relative">
-      <div className="absolute top-0 right-0 hidden h-[740px] bg-[#B6BFBC] opacity-[12%] xl:block xl:w-[547px]"></div>
-      <div className="absolute bottom-0 left-0 hidden h-[740px] bg-[#B6BFBC] opacity-[12%] xl:block xl:w-[547px]"></div>
+      <SideShape height={"739px"} right={"0"} />
+      <SideShape height={"739px"} left={"0"} bottom={"0"} />
 
       <div className="large-con relative mt-20 flex flex-col items-center md:mt-22 lg:mt-24 xl:mt-27">
         <SectionHeader heading={"Portfolio"} subheading={"施術例"} />
