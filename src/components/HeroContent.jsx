@@ -35,7 +35,7 @@ const HeroContent = () => {
             <img src={intersection} alt="" className="w-full" />
           </div>
           <div className="mt-10 flex justify-center md:hidden">
-            <Link to={"/"}>
+            <Link to={"/contact"}>
               <img src={btn1} alt="" />
             </Link>
           </div>
