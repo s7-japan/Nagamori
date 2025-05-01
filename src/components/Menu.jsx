@@ -7,6 +7,7 @@ import btn2 from "../assets/btn2.svg";
 import btn3 from "../assets/btn3.svg";
 import { Link } from "react-router-dom";
 import SectionHeader from "./SectionHeader";
+import SideShape from "./SideShape";
 
 const Menu = () => {
   return (
