@@ -41,7 +41,6 @@ const App = () => {
   const [sidebar, setSidebar] = useState(false);
   return (
     <>
-    <BrowserRouter>
       <Navbar sidebar={sidebar} setSidebar={setSidebar} />
       <MobileNav sidebar={sidebar} setSidebar={setSidebar} />
       <Routes>
@@ -51,7 +50,6 @@ const App = () => {
         <Route path="/schedule" element={<Schedule />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
     </>
   );
 };
