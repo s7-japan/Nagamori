@@ -6,28 +6,38 @@ import TreatmentCard from "../components/TreatmentCard";
 const Treatment = () => {
   return (
     <div>
-      <div className="pt-28 md:pt-[10vw] px-6 md:px-[16vw]">
-        <p className="text-[3vw] md:text-[1.3vw] mb-[1vw] text-[#00000063] md:text-black">
+      <div className="large-con mt-5 px-6 md:mt-7 lg:mt-8 xl:mt-10">
+        <p className="text-xs opacity-60 md:text-base md:opacity-100 lg:text-2xl xl:text-[28px]">
           ホーム 施術メニュー（料金表）
         </p>
-        <div className="flex flex-col md:flex-row justify-start md:mb-4 lg:mb-6 xl:mb-7.5 mt-9">
-          <p className="text-[clamp(2rem,3vw,4.125rem)] tracking-[0.2em] text-center">
+        <div className="mt-9 flex flex-col justify-start md:mb-4 md:flex-row lg:mb-6 xl:mb-7.5">
+          <p className="text-center text-[clamp(2rem,3vw,4.125rem)] tracking-[0.2em]">
             施術メニュー
           </p>
-          <p className="text-[clamp(1.25rem,3vw,4.125rem)] text-center tracking-[0.2em] mb-5 md:mb-0">
+          <p className="mb-5 text-center text-[clamp(1.25rem,3vw,4.125rem)] tracking-[0.2em] md:mb-0">
             （料金表）
           </p>
         </div>
       </div>
-      <div className="w-full h-[55vw] md:h-[25vw] bg-[#E6E6E6] flex md:px-[13vw] px-6">
-        <div className="w-1/2 h-full">
-          <img src={hero} alt="" className="h-full w-full object-cover" />
-        </div>
-        <div className="w-1/2 h-full md:items-center flex items-start">
-          <img src={herowhite} alt="" className="h-25" />
+      <div className="flex h-[197px] w-full items-center bg-[#E6E6E6] md:h-[260px] lg:h-[350px] xl:h-[494px]">
+        <div className="large-con flex h-full md:items-center">
+          <div className="flex h-full w-1/2 items-end">
+            <img
+              src={hero}
+              alt=""
+              className="h-[180px] w-full object-cover md:h-auto"
+            />
+          </div>
+          <div className="flex w-1/2 items-start md:items-center md:justify-end">
+            <img
+              src={herowhite}
+              alt=""
+              className="md:mt0 mt-9 w-[192px] md:w-[280px] lg:w-[400px] xl:w-[527px]"
+            />
+          </div>
         </div>
       </div>
-      <div className="px-6 leading-[36px] md:px-[13vw] mt-8 mb-20 font-light">
+      <div className="large-con mt-[53px] px-6 leading-[36px] font-light md:mt-9 md:text-xl md:leading-[40px] lg:mt-8 lg:text-2xl lg:leading-[48px] xl:text-3xl xl:leading-[51px]">
         当院には様々な最先端医療がございますので、まずは施術(値段)一覧よりご希望のメニューご確認いただき、カウンセリングにお越しください。美容治療のスペシャリスト達が、患者様の「究極の美」を追求するため、お悩みに合わせたプランをご提案させていただきます。
       </div>
       <TreatmentCard />

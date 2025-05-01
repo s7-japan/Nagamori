@@ -9,9 +9,11 @@ import DoctorCard2 from "./DoctorCard2";
 
 const Recommendation = () => {
   return (
-    <div>
-      <div className="absolute top-0 right-0 -z-10 hidden h-[30%] w-[28%] bg-[#B6BFBC] opacity-[12%] md:block"></div>
-      <div className="large-con relative mt-10">
+    <div className="relative">
+      <div className="absolute top-0 right-0 hidden h-[850px] bg-[#B6BFBC] opacity-[12%] xl:block xl:w-[547px]"></div>
+      <div className="absolute bottom-0 left-0 hidden h-[840px] bg-[#B6BFBC] opacity-[12%] xl:block xl:w-[547px]"></div>
+
+      <div className="large-con relative mt-10 md:mt-16 lg:mt-20 xl:mt-25">
         <div className="flex flex-col items-center">
           <h1 className="sikita text-center text-[41px] md:text-[50px] lg:text-[60px] xl:text-[70px]">
             Recommendations
@@ -19,7 +21,7 @@ const Recommendation = () => {
           <div className="h-underline"></div>
           <p className="subheading-1">提携先クリニックからひとこと</p>
         </div>
-        <div className="grid-cols-1 md:grid md:grid-cols-3 md:gap-x-16 md:gap-y-40 md:pb-20">
+        <div className="grid-cols-1 gap-y-14 md:grid md:grid-cols-2 md:gap-x-16 md:gap-y-20 md:pb-20 lg:grid-cols-3 lg:gap-y-30 xl:gap-y-35">
           <DoctorCard
             image={d4}
             t1={"前田 拓摩"}
