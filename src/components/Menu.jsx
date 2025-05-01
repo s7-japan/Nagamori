@@ -3,7 +3,6 @@ import one from "../assets/menu1.png";
 import two from "../assets/menu2.png";
 import three from "../assets/menu3.png";
 import four from "../assets/menu4.png";
-import btn2 from "../assets/btn2.svg";
 import btn3 from "../assets/btn3.svg";
 import { Link } from "react-router-dom";
 import SectionHeader from "./SectionHeader";

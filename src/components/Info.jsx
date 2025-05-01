@@ -2,7 +2,6 @@ import React from "react";
 import intersection from "../assets/Intersection_2.png";
 import instagram from "../assets/instalogo.png";
 import btn4 from "../assets/btn4.svg";
-import btn5 from "../assets/btn5.svg";
 import { Link } from "react-router-dom";
 
 const Info = () => {

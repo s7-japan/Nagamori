@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation, Router } from "react-router-dom";
 import logo from "../assets/newLogo.svg";
-import { CiMenuBurger } from "react-icons/ci";
 import { RxCross1 } from "react-icons/rx";
 import line from "../assets/line.svg";
 import Nlogo from "../assets/Nlogo.svg";

@@ -1,7 +1,6 @@
 import bg from "../assets/bg.svg";
 import bgmobile from "../assets/mobilebg.svg";
 import whitelogo from "../assets/whitelogo.png";
-import makeupLine from "../assets/makeupLine.svg";
 
 export default function HeroSection() {
   return (
