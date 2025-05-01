@@ -3,12 +3,13 @@ import intersection from "../assets/Intersection.png";
 import concept from "../assets/concept.png";
 import btn1 from "../assets/btn1.svg";
 import { Link } from "react-router-dom";
+import SideShape from "./SideShape";
 
 const HeroContent = () => {
   return (
     <>
       <div className="relative md:mt-20 lg:mt-30 xl:mt-44">
-        <div className="absolute top-0 left-0 hidden h-[740px] bg-[#B6BFBC] opacity-[12%] xl:block xl:w-[547px]"></div>
+        <SideShape height={"739px"} />
         <div className="relative container mx-auto flex flex-col px-6 md:flex-row md:items-start md:gap-6 md:px-0 lg:gap-10 xl:max-w-7xl xl:gap-22">
           <div className="flex w-full flex-col md:w-1/2">
             <div className="relative flex items-center justify-center py-10 xl:flex-col xl:items-start xl:py-0">

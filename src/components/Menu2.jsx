@@ -9,11 +9,12 @@ import shadow from "../assets/Shadow.png";
 import hairline from "../assets/Hairline.png";
 import lips from "../assets/Lips.png";
 import lineLogo from "../assets/lineLogo.png";
+import SideShape from "./SideShape";
 
 const Menu2 = () => {
   return (
     <div className="relative md:mt-20 lg:mt-30 xl:mt-44">
-      <div className="absolute top-0 left-0 hidden h-[1036px] bg-[#B6BFBC] opacity-[12%] xl:block xl:w-[547px]"></div>
+      <SideShape height={"1036px"} />
       <div className="large-con relative mt-12 flex flex-col items-center">
         <div className="relative flex items-center justify-center py-10 md:flex-col md:items-start">
           <img

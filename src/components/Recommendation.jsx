@@ -6,12 +6,13 @@ import d4 from "../assets/d4.png";
 import d5 from "../assets/d5.png";
 import DoctorCard from "./DoctorCard";
 import DoctorCard2 from "./DoctorCard2";
+import SideShape from "./SideShape";
 
 const Recommendation = () => {
   return (
     <div className="relative">
-      <div className="absolute top-0 right-0 hidden h-[850px] bg-[#B6BFBC] opacity-[12%] xl:block xl:w-[547px]"></div>
-      <div className="absolute bottom-0 left-0 hidden h-[840px] bg-[#B6BFBC] opacity-[12%] xl:block xl:w-[547px]"></div>
+      <SideShape height={"851px"} right={"0"} />
+      <SideShape height={"843px"} bottom={"0"} />
 
       <div className="large-con relative mt-10 md:mt-16 lg:mt-20 xl:mt-25">
         <div className="flex flex-col items-center">

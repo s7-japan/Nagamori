@@ -12,7 +12,7 @@ import SideShape from "./SideShape";
 const Menu = () => {
   return (
     <div className="relative md:mt-20 lg:mt-30 xl:mt-44">
-      <div className="absolute top-0 right-0 hidden h-[950px] bg-[#B6BFBC] opacity-[12%] xl:block xl:w-[547px]"></div>
+      <SideShape height={"1043px"} right={"0"} />
       <div className="large-con relative mt-24 flex flex-col items-center">
         <SectionHeader heading={"Menu"} subheading={"施術メニュー"} />
         <div className="grid grid-cols-2 gap-x-3 gap-y-8 md:grid-cols-4 md:gap-8">
