@@ -17,16 +17,14 @@ const Info = () => {
             <h1 className="text-[46px] font-light tracking-[0.02em] md:text-[52px] lg:text-[60px] xl:text-[72px]">
               永森友美
             </h1>
-            <img
-              onClick={() => {
-                window.location.replace(
-                  "https://www.instagram.com/tomomi_nagamori_art?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-                );
-              }}
-              src={instagram}
-              alt=""
-              className="w-12.5 cursor-pointer"
-            />
+            <a
+              className="w-12.5"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/tomomi_nagamori_art?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            >
+              <img src={instagram} alt="" className="cursor-pointer" />
+            </a>
           </div>
           <p className="sikita md:2xl lg:text-28px mt-2 mb-5 text-[21px] italic xl:mt-2.5 xl:text-[33px]">
             Nagamori Tomomi
@@ -49,16 +47,14 @@ const Info = () => {
               <h1 className="text-[46px] font-light tracking-[0.02em] md:text-[52px] lg:text-[60px] xl:text-[72px]">
                 永 森 友 美
               </h1>
-              <img
-                onClick={() => {
-                  window.location.replace(
-                    "https://www.instagram.com/tomomi_nagamori_art?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-                  );
-                }}
-                src={instagram}
-                alt=""
-                className="cursor-pointer md:w-[45px] lg:w-[50px] xl:w-[63px]"
-              />
+              <a
+                className="md:w-[45px] lg:w-[50px] xl:w-[63px]"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/tomomi_nagamori_art?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              >
+                <img src={instagram} alt="" className="w-full" />
+              </a>
             </div>
             <p className="sikita md:2xl lg:text-28px mt-2 mb-5 text-[21px] italic xl:mt-2.5 xl:text-[33px]">
               Nagamori Tomomi

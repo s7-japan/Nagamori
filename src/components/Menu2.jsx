@@ -8,6 +8,7 @@ import tail from "../assets/Tail.png";
 import shadow from "../assets/Shadow.png";
 import hairline from "../assets/Hairline.png";
 import lips from "../assets/Lips.png";
+import lineLogo from "../assets/lineLogo.png";
 
 const Menu2 = () => {
   return (
@@ -26,8 +27,16 @@ const Menu2 = () => {
         </div>
         <div className="grid grid-cols-1 gap-x-4 gap-y-20 md:grid-cols-2 md:gap-8 xl:grid-cols-4">
           <div className="flex flex-col">
-            <div>
+            <div className="group relative">
               <img src={menu2_1} alt="" className="w-full" />
+              <a
+                className="absolute right-3 bottom-3 w-8 opacity-0 transition-opacity group-hover:opacity-100"
+                href="https://line.me/R/ti/p/@321iyeoj"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={lineLogo} className="w-full" alt="" />
+              </a>
             </div>
             <div>
               <img src={tail} alt="" className="mt-9" />

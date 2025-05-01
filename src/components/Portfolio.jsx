@@ -12,7 +12,6 @@ import p10 from "../assets/p10.png";
 import p11 from "../assets/p11.png";
 import p12 from "../assets/p12.png";
 import btn6 from "../assets/btn6.svg";
-import { Link } from "react-router-dom";
 import SectionHeader from "./SectionHeader";
 
 const Portfolio = () => {
@@ -37,13 +36,17 @@ const Portfolio = () => {
           <img src={p11} alt="" />
           <img src={p12} alt="" />
         </div>
-        <Link to="https://www.instagram.com/tomomi_nagamori_art?igsh=bmtpYzRvZXQ1bXE1">
-            <img
-              src={btn6}
-              alt=""
-              className="mt-12 w-full cursor-pointer md:mt-20 lg:mt-25 xl:mt-30"
-            />
-        </Link>
+        <a
+          href="https://www.instagram.com/tomomi_nagamori_art?igsh=bmtpYzRvZXQ1bXE1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={btn6}
+            alt=""
+            className="mt-12 w-full cursor-pointer md:mt-20 lg:mt-25 xl:mt-30"
+          />
+        </a>
       </div>
     </div>
   );
