@@ -228,6 +228,7 @@ const Contact1 = ({ formData, setFormData, onSubmit }) => {
                 type="radio"
                 name="gender"
                 value="male"
+                className="w-6"
                 checked={formData.gender === "male"}
                 onChange={handleInputChange}
               />
@@ -238,6 +239,7 @@ const Contact1 = ({ formData, setFormData, onSubmit }) => {
                 type="radio"
                 name="gender"
                 value="female"
+                className="w-6"
                 checked={formData.gender === "female"}
                 onChange={handleInputChange}
               />
