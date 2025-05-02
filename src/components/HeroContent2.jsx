@@ -16,6 +16,7 @@ const HeroContent2 = () => {
               autoPlay
               loop
               muted
+              playsInline
               className="h-full w-full object-cover"
             ></video>
           </div>
@@ -26,6 +27,7 @@ const HeroContent2 = () => {
               autoPlay
               loop
               muted
+              playsInline
               className="h-full w-full object-cover"
             ></video>
           </div>
