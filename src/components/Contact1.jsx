@@ -1,6 +1,5 @@
 import React from "react";
-import btn5 from "../assets/btn5.svg";
-import submitSmBtn from "../assets/submit-sm-btn.svg";
+import BorderCutBtnFill from "./Button/BorderCutBtnFill";
 
 const Contact1 = ({ formData, setFormData, onSubmit }) => {
   const handleInputChange = (e) => {
@@ -269,9 +268,11 @@ const Contact1 = ({ formData, setFormData, onSubmit }) => {
         </div>
 
         <div className="mt-20 flex w-full justify-center">
-          <button type="submit" className="hover:cursor-pointer">
-            <img src={btn5} className="md:hidden" alt="" />
-            <img src={submitSmBtn} className="hidden md:block" alt="" />
+          <button
+            type="submit"
+            className="w-full hover:cursor-pointer sm:w-fit"
+          >
+            <BorderCutBtnFill text={"送信"} />
           </button>
         </div>
       </form>

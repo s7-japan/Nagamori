@@ -37,7 +37,7 @@ const HeroContent2 = () => {
           <div className="relative mt-5 mr-auto ml-auto flex w-[330px] flex-col items-center justify-center py-10 md:-mt-3 md:ml-0 md:pt-0 lg:w-[490px] xl:w-[628px] xl:flex-col xl:items-start xl:py-0">
             <img
               src={technique}
-              alt=""
+              alt="technique"
               className="absolute left-1/2 w-56 -translate-x-1/2 opacity-40 xl:relative xl:left-0 xl:w-72 xl:-translate-0 xl:opacity-60"
             />
             <p className="self-start text-[28px] tracking-[0.055em] text-[#606060] lg:text-[35px] xl:-mt-5 xl:text-[45px] xl:font-light xl:text-black">

@@ -15,7 +15,7 @@ const Menu2 = () => {
         <div className="relative flex items-center justify-center py-10 md:flex-col md:items-start">
           <img
             src={techniq}
-            alt=""
+            alt="technique"
             className="absolute left-1/2 w-36 -translate-x-1/2 -rotate-[20deg] opacity-40 md:relative md:w-40 md:rotate-0 lg:w-45 xl:w-52 xl:opacity-60"
           />
           <p className="text-[28px] tracking-[0.055em] text-[#606060] xl:text-[45px] xl:font-light xl:text-black">
@@ -25,14 +25,14 @@ const Menu2 = () => {
         <div className="grid grid-cols-1 gap-x-4 gap-y-20 md:grid-cols-2 md:gap-8 xl:grid-cols-4">
           <div className="flex flex-col">
             <div className="relative">
-              <img src={menu2_1} alt="" className="w-full" />
+              <img src={menu2_1} alt="menu" className="w-full" />
               <a
                 className="absolute right-3 bottom-3 w-10 transition-opacity md:hidden"
                 href="https://line.me/R/ti/p/@321iyeoj"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={lineLogo} className="w-full" alt="" />
+                <img src={lineLogo} className="w-full" alt="line_logo" />
               </a>
             </div>
             <div>
@@ -56,7 +56,7 @@ const Menu2 = () => {
 
           <div className="flex flex-col">
             <div>
-              <img src={menu2_2} alt="" className="w-full" />
+              <img src={menu2_2} alt="menu" className="w-full" />
             </div>
             <div>
               <h3 className="Segoe mt-9 text-[32px] text-[#C8C8C8] opacity-60">
@@ -79,7 +79,7 @@ const Menu2 = () => {
 
           <div className="flex flex-col">
             <div>
-              <img src={menu2_3} alt="" className="w-full" />
+              <img src={menu2_3} alt="menu" className="w-full" />
             </div>
             <div>
               <h3 className="Segoe mt-9 text-[32px] text-[#C8C8C8] opacity-60">
@@ -102,7 +102,7 @@ const Menu2 = () => {
 
           <div className="flex flex-col">
             <div>
-              <img src={menu2_4} alt="" className="w-full" />
+              <img src={menu2_4} alt="menu" className="w-full" />
             </div>
             <div>
               <h3 className="Segoe mt-9 text-[32px] text-[#C8C8C8] opacity-60">
