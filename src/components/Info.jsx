@@ -3,6 +3,7 @@ import intersection from "../assets/Intersection_2.png";
 import instagram from "../assets/instalogo.png";
 import btn4 from "../assets/btn4.svg";
 import { Link } from "react-router-dom";
+import BorderCutBtn from "./Button/BorderCutBtn";
 
 const Info = () => {
   return (
@@ -80,14 +81,11 @@ const Info = () => {
           <br />
           世界で開催されるアートメイクイベントにスピーカーや審査員として招待される。
         </p>
-
-        <Link to="/contact">
-          <img
-            src={btn4}
-            alt=""
-            className="mt-11 w-full cursor-pointer md:mt-13 lg:mt-14 xl:mt-16"
-          />
-        </Link>
+        <div className="mt-11 flex w-full cursor-pointer justify-center md:mt-13 md:justify-start lg:mt-14 xl:mt-16">
+          <Link to="/contact" className="w-full sm:w-fit">
+            <BorderCutBtn text={"予約確認はこちら →"} />
+          </Link>
+        </div>
       </div>
     </div>
   );

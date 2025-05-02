@@ -3,10 +3,10 @@ import one from "../assets/menu1.png";
 import two from "../assets/menu2.png";
 import three from "../assets/menu3.png";
 import four from "../assets/menu4.png";
-import btn3 from "../assets/btn3.svg";
 import { Link } from "react-router-dom";
 import SectionHeader from "./SectionHeader";
 import SideShape from "./SideShape";
+import BorderCutBtn from "./Button/BorderCutBtn";
 
 const Menu = () => {
   return (
@@ -44,13 +44,11 @@ const Menu = () => {
             <p className="s-card-subheading">￥ 100,000~</p>
           </div>
         </div>
-        <Link to="/treatment">
-          <img
-            src={btn3}
-            alt=""
-            className="mt-10 w-full cursor-pointer md:mt-13 lg:mt-17 xl:mt-20"
-          />
-        </Link>
+        <div className="mt-10 flex w-full justify-center md:mt-13 lg:mt-17 xl:mt-20">
+          <Link to="/treatment" className="w-full sm:w-fit">
+            <BorderCutBtn text={"予約確認はこちら →"} />
+          </Link>
+        </div>
         <p className="mt-8 text-[13px] tracking-[0.097em] md:mt-9 md:text-base lg:mt-10 lg:text-[22px] xl:mt-12 xl:text-[25px]">
           初めての方も、お気軽にお問い合わせください。
         </p>
