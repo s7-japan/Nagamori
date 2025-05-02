@@ -14,6 +14,7 @@ import p12 from "../assets/p12.png";
 import btn6 from "../assets/btn6.svg";
 import SectionHeader from "./SectionHeader";
 import SideShape from "./SideShape";
+import BorderCutBtn from "./Button/BorderCutBtn";
 
 const Portfolio = () => {
   return (
@@ -37,17 +38,16 @@ const Portfolio = () => {
           <img src={p11} alt="" />
           <img src={p12} alt="" />
         </div>
-        <a
-          href="https://www.instagram.com/tomomi_nagamori_art?igsh=bmtpYzRvZXQ1bXE1"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src={btn6}
-            alt=""
-            className="mt-12 w-full cursor-pointer md:mt-20 lg:mt-25 xl:mt-30"
-          />
-        </a>
+        <div className="mt-12 flex w-full cursor-pointer justify-center md:mt-20 lg:mt-25 xl:mt-30">
+          <a
+            className="w-full sm:w-fit"
+            href="https://www.instagram.com/tomomi_nagamori_art?igsh=bmtpYzRvZXQ1bXE1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BorderCutBtn text={"詳細はこちら →"} />
+          </a>
+        </div>
       </div>
     </div>
   );

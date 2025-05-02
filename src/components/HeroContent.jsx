@@ -4,6 +4,7 @@ import concept from "../assets/concept.png";
 import btn1 from "../assets/btn1.svg";
 import { Link } from "react-router-dom";
 import SideShape from "./SideShape";
+import BorderCutBtn from "./Button/BorderCutBtn";
 
 const HeroContent = () => {
   return (
@@ -36,8 +37,8 @@ const HeroContent = () => {
             <img src={intersection} alt="" className="w-full" />
           </div>
           <div className="mt-10 flex justify-center md:hidden">
-            <Link to={"/contact"}>
-              <img src={btn1} alt="" />
+            <Link to={"/contact"} className="w-full sm:w-fit">
+              <BorderCutBtn text={"予約確認はこちら →"} />
             </Link>
           </div>
         </div>
