@@ -13,7 +13,6 @@ const HeroContent2 = () => {
           <div className="aspect-square w-full overflow-hidden">
             <video
               src={vid1}
-              controls
               autoPlay
               loop
               muted
@@ -24,7 +23,6 @@ const HeroContent2 = () => {
           <div className="aspect-square w-full overflow-hidden">
             <video
               src={vid2}
-              controls
               autoPlay
               loop
               muted
