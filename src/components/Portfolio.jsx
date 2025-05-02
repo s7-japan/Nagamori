@@ -15,7 +15,7 @@ import SectionHeader from "./SectionHeader";
 import SideShape from "./SideShape";
 import BorderCutBtn from "./Button/BorderCutBtn";
 
-const portfolio_imagePortfolio = () => {
+const Portfolio = () => {
   return (
     <div className="relative">
       <SideShape height={"739px"} right={"0"} />
