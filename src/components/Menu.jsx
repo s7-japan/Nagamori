@@ -17,28 +17,28 @@ const Menu = () => {
         <div className="grid grid-cols-2 gap-x-3 gap-y-8 md:grid-cols-4 md:gap-8">
           <div>
             <div className="mb-1">
-              <img src={one} alt="" />
+              <img src={one} alt="menu" />
             </div>
             <p className="s-card-heading">眉アートメイク</p>
             <p className="s-card-subheading">￥ 100,000~</p>
           </div>
           <div>
             <div className="mb-1">
-              <img src={two} alt="" />
+              <img src={two} alt="menu" />
             </div>
             <p className="s-card-heading">アイラインアートメイク</p>
             <p className="s-card-subheading">￥ 100,000~</p>
           </div>
           <div>
             <div className="mb-1">
-              <img src={three} alt="" />
+              <img src={three} alt="menu" />
             </div>
             <p className="s-card-heading">リップアートメイク</p>
             <p className="s-card-subheading">￥ 100,000~</p>
           </div>
           <div>
             <div className="mb-1">
-              <img src={four} alt="" />
+              <img src={four} alt="menu" />
             </div>
             <p className="s-card-heading">ヘアライン, 涙袋 etc</p>
             <p className="s-card-subheading">￥ 100,000~</p>

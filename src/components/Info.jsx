@@ -1,7 +1,6 @@
 import React from "react";
 import intersection from "../assets/Intersection_2.png";
 import instagram from "../assets/instalogo.png";
-import btn4 from "../assets/btn4.svg";
 import { Link } from "react-router-dom";
 import BorderCutBtn from "./Button/BorderCutBtn";
 
@@ -23,7 +22,7 @@ const Info = () => {
               rel="noopener noreferrer"
               href="https://www.instagram.com/tomomi_nagamori_art?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             >
-              <img src={instagram} alt="" className="cursor-pointer" />
+              <img src={instagram} alt="instalogo" className="cursor-pointer" />
             </a>
           </div>
           <p className="sikita md:2xl lg:text-28px mt-2 mb-5 text-[21px] italic xl:mt-2.5 xl:text-[33px]">
@@ -32,7 +31,7 @@ const Info = () => {
         </div>
       </div>
       <div className="w-full md:w-[45%]">
-        <img src={intersection} alt="" className="h-full w-full object-cover" />
+        <img src={intersection} alt="intersection" className="h-full w-full object-cover" />
       </div>
       <div className="flex flex-col items-center pl-0 md:w-[55%] md:items-start md:justify-between md:pl-20">
         <div className="hidden w-full md:block">
@@ -53,7 +52,7 @@ const Info = () => {
                 rel="noopener noreferrer"
                 href="https://www.instagram.com/tomomi_nagamori_art?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               >
-                <img src={instagram} alt="" className="w-full" />
+                <img src={instagram} alt="instalogo" className="w-full" />
               </a>
             </div>
             <p className="sikita md:2xl lg:text-28px mt-2 mb-5 text-[21px] italic xl:mt-2.5 xl:text-[33px]">

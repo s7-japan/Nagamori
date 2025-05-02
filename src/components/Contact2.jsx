@@ -1,7 +1,5 @@
 import React from "react";
-import btn5 from "../assets/btn5.svg";
 import emailjs from "emailjs-com";
-import submitSmBtn from "../assets/submit-sm-btn.svg";
 import BorderCutBtnFill from "./Button/BorderCutBtnFill";
 
 const Contact2 = ({ formData, setFinalConfirmation }) => {

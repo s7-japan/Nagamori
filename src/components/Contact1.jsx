@@ -1,6 +1,4 @@
 import React from "react";
-import btn5 from "../assets/btn5.svg";
-import submitSmBtn from "../assets/submit-sm-btn.svg";
 import BorderCutBtnFill from "./Button/BorderCutBtnFill";
 
 const Contact1 = ({ formData, setFormData, onSubmit }) => {

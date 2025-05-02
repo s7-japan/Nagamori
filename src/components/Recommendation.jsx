@@ -41,7 +41,11 @@ const Recommendation = () => {
 
           <div className="mb-20 md:mb-0">
             <div>
-              <img src={d3} alt="" className="h-full w-full object-cover" />
+              <img
+                src={d3}
+                alt="doctor"
+                className="h-full w-full object-cover"
+              />
               <div className="mt-2">
                 <div className="mt-[19px] mb-[23px] h-[1px] w-10 bg-[#707070] opacity-20"></div>
                 <p className="sikita text-[33px] font-bold opacity-20">
@@ -73,7 +77,11 @@ const Recommendation = () => {
 
           <div>
             <div>
-              <img src={d2} alt="" className="h-full w-full object-cover" />
+              <img
+                src={d2}
+                alt="doctor"
+                className="h-full w-full object-cover"
+              />
               <div className="mt-2">
                 <div className="mt-[19px] mb-[23px] h-[1px] w-10 bg-[#707070] opacity-20"></div>
                 <p className="sikita text-[33px] font-bold opacity-20">
