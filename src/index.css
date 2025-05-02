@@ -5,6 +5,10 @@
   font-family: "Sikita";
   src: url("./assets/fonts/Sitka.ttc");
 }
+@font-face {
+  font-family: "Segoe";
+  src: url("./assets/fonts/SegoeScript.ttf");
+}
 
 * {
   font-family: "Noto Sans JP", serif;
@@ -20,6 +24,9 @@
 
 .sikita {
   font-family: "Sikita";
+}
+.Segoe {
+  font-family: "Segoe";
 }
 
 .large-con {

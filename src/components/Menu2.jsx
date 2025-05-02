@@ -4,10 +4,6 @@ import menu2_1 from "../assets/menu2_1.png";
 import menu2_2 from "../assets/menu2_2.png";
 import menu2_3 from "../assets/menu2_3.png";
 import menu2_4 from "../assets/menu2_4.png";
-import tail from "../assets/Tail.png";
-import shadow from "../assets/Shadow.png";
-import hairline from "../assets/Hairline.png";
-import lips from "../assets/Lips.png";
 import lineLogo from "../assets/lineLogo.png";
 import SideShape from "./SideShape";
 
@@ -40,7 +36,9 @@ const Menu2 = () => {
               </a>
             </div>
             <div>
-              <img src={tail} alt="" className="mt-9" />
+              <h3 className="Segoe mt-9 text-[32px] text-[#C8C8C8] opacity-60">
+                Tail Eyeline
+              </h3>
               <p className="mt-1 text-xl leading-10 font-medium text-[#606060] md:-mt-4">
                 テールアイライン
               </p>
@@ -61,7 +59,9 @@ const Menu2 = () => {
               <img src={menu2_2} alt="" className="w-full" />
             </div>
             <div>
-              <img src={shadow} alt="" className="mt-9" />
+              <h3 className="Segoe mt-9 text-[32px] text-[#C8C8C8] opacity-60">
+                Shadow Eyeline
+              </h3>
               <p className="mt-1 text-xl leading-10 font-medium text-[#606060] md:-mt-4">
                 シャドウアイライン
               </p>
@@ -82,7 +82,9 @@ const Menu2 = () => {
               <img src={menu2_3} alt="" className="w-full" />
             </div>
             <div>
-              <img src={lips} alt="" className="mt-9" />
+              <h3 className="Segoe mt-9 text-[32px] text-[#C8C8C8] opacity-60">
+                Lips
+              </h3>
               <p className="mt-1 text-xl leading-10 font-medium text-[#606060] md:-mt-4">
                 リップ
               </p>
@@ -103,7 +105,9 @@ const Menu2 = () => {
               <img src={menu2_4} alt="" className="w-full" />
             </div>
             <div>
-              <img src={hairline} alt="" className="mt-9" />
+              <h3 className="Segoe mt-9 text-[32px] text-[#C8C8C8] opacity-60">
+                Hairline
+              </h3>
               <p className="mt-1 text-xl leading-10 font-medium text-[#606060] md:-mt-4">
                 ヘアライン
               </p>
